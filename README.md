@@ -7,6 +7,7 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|28|[Median of Two Sorted Array](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [C++](./src/Median-2-Sorted-Array/Median-2-Sorted-Array.cpp)|Hard|
 |28|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/Repeated-DNA-Sequences/Repeated DNA Sequences.cpp)|Hard|
 |27|[Word Search II](https://leetcode.com/problems/word-search-ii/)| [C++](./src/Word-Search-II/Word Search II.cpp)|Hard|
 |26|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [C++](./src/Implement-Trie-Prefix-Tree/Implement Trie (Prefix Tree).cpp)|Medium|

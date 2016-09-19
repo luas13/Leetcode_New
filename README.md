@@ -7,7 +7,7 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|28|[Word Search II](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/Repeated-DNA-Sequences/Repeated DNA Sequences.cpp)|Hard|
+|28|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/Repeated-DNA-Sequences/Repeated DNA Sequences.cpp)|Hard|
 |27|[Word Search II](https://leetcode.com/problems/word-search-ii/)| [C++](./src/Word-Search-II/Word Search II.cpp)|Hard|
 |26|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [C++](./src/Implement-Trie-Prefix-Tree/Implement Trie (Prefix Tree).cpp)|Medium|
 |25|[Word Search](https://leetcode.com/problems/word-search/)| [C++](./src/Word-Search/Word Search.cpp)|Medium|

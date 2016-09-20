@@ -7,6 +7,7 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|30|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [C++](./src/Longest-Palindromic-Substring/Longest_Palindromic_Substring.cpp)|Medium|
 |29|[Median of Two Sorted Array](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [C++](./src/Median-2-Sorted-Array/Median 2 Sorted Array.cpp)|Hard|
 |28|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/Repeated-DNA-Sequences/Repeated DNA Sequences.cpp)|Hard|
 |27|[Word Search II](https://leetcode.com/problems/word-search-ii/)| [C++](./src/Word-Search-II/Word Search II.cpp)|Hard|

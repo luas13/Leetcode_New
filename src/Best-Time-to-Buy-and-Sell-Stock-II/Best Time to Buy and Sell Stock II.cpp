@@ -1,3 +1,28 @@
+//Simple Code Method-1
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int l = prices.size();
+        if (l == 0 || l==1)
+            return 0;
+        int min = prices[0];
+        int max_diff = 0;
+        for (int i=1; i<l; i++)
+        {
+            if (prices[i] > min)
+                max_diff += prices[i] - min;
+            //think of a zig zag graph, in any case minimum will get updated 
+            //either its increasing or decreasing
+            min = prices[i];
+        }
+        return max_diff;
+    }
+};
+
+
+
+___________________________________________________________________________________
+
 class Solution {
 public:
     int maxProfit(vector<int> &prices) {

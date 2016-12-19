@@ -19,12 +19,14 @@ public:
             if(inorder[i] == key)
                 return i;
         }
+        //return 0 otherwise compilation error
+        return 0;
     }
     
     TreeNode *buildutil(vector<int> &preorder, vector<int> &inorder, int s, int e,int &mid)
     {
         //static int k=0;
-    
+        //no need of || preorder.size()==mid
         if(s > e || preorder.size()==mid)
             return NULL;
     

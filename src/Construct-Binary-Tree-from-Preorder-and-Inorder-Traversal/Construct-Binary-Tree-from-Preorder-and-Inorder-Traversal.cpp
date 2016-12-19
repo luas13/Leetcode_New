@@ -14,7 +14,7 @@ public:
     int search(vector<int> &inorder, int key, int s, int e)
     {
         int i;
-        for(i=0; i<=e; i++)
+        for(i=s; i<=e; i++)
         {
             if(inorder[i] == key)
                 return i;

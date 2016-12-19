@@ -12,6 +12,49 @@ public:
     int search(vector<int> &inorder, int key, int s, int e)
     {
         int i;
+        for(i=s; i<=e; i++)
+        {
+            if(inorder[i] == key)
+                return i;
+        }
+        return -1;
+    }
+    
+    TreeNode *buildutil(vector<int> &postorder, vector<int> &inorder, int s, int e,int &mid)
+    {
+        if(s > e)
+            return NULL;
+    
+        TreeNode* p=new TreeNode(postorder[mid--]);
+    
+        int l=search(inorder,p->val,s,e);
+        
+        p->right=buildutil(postorder,inorder,l+1,e,mid);
+        p->left=buildutil(postorder,inorder,s,l-1,mid);
+        
+        return p;
+    }
+
+    
+    TreeNode *buildTree(vector<int> &inorder, vector<int> &postorder) {
+        if (postorder.size() == 0 || inorder.size() == 0 || postorder.size() != inorder.size()) {
+            return NULL;
+        }
+        int l=postorder.size();
+        int mid=l-1;
+        return buildutil(postorder,inorder,0,l-1,mid);
+    }
+    
+   
+};
+_____________________________________________________________________________________________________
+OR,
+
+class Solution {
+public:
+    int search(vector<int> &inorder, int key, int s, int e)
+    {
+        int i;
         for(i=0; i<=e; i++)
         {
             if(inorder[i] == key)

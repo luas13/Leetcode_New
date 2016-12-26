@@ -62,3 +62,40 @@ public:
         
     }
 };
+
+/*
+My solution:
+
+class Solution {
+public:
+    int minimumTotal(vector<vector<int>>& triangle) {
+        int r= triangle.size();
+        int c= triangle[0].size();
+        if (r==0 && c==0)
+            return 0;
+        if (r==1 && c==1)
+            return triangle[0][0];
+        
+        vector<int> dp(r,INT_MAX);
+        dp[0] = triangle[0][0];
+        //global_minimum
+        int gmin = dp[0];
+        
+        for (int i=1; i<r; i++)
+        {
+            int lmin = INT_MAX;
+            for(int j=i; j>=0; j--)
+            {
+                if (j>0)
+                    dp[j] = triangle[i][j] + min(dp[j-1], dp[j]);
+                else
+                    dp[j] += triangle[i][j];
+                lmin = min(lmin, dp[j]);
+            }
+            gmin = lmin;
+        }
+        return gmin;
+    }
+};
+
+*/

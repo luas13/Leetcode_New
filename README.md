@@ -7,9 +7,31 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|52|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [C++](./src/Longest%20Increasing%20Subsequence/Longest%20Increasing%20Subsequence.cpp) |Medium|
+|51|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [C++](./src/Longest%20Increasing%20Subsequence/Longest%20Increasing%20Subsequence.cpp) |Medium|
+|50|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)| [C++](./src/Perfect%20Squares/Perfect%20Squares.cpp) |Medium|
+|49|[Coin Change](https://leetcode.com/problems/coin-change/)| [C++](./src/Coin%20Change/Coin%20Change.cpp) |Medium|
+|48|[Maximal Square](https://leetcode.com/problems/maximal-square/)| [C++](./src/Maximal%20Square/Maximal%20Square.cpp) |Medium|
+|47|[Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)| [C++](./src/Maximal%20Rectangle/Maximal%20Rectangle.cpp) |Hard|
+|46|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)| [C++](./src/Largest%20Rectangle%20in%20Histogram/Largest%20Rectangle%20in%20Histogram.cpp) |Hard|
+|45|[House Robber II](https://leetcode.com/problems/house-robber-ii/)| [C++](./src/House%20Robber%20II/House%20Robber%20II.cpp) |Medium|
+|44|[House Robber](https://leetcode.com/problems/house-robber/)| [C++](./src/House%20Robber/House%20Robber.cpp) |Easy|
+|43|[Triangle](https://leetcode.com/problems/triangle/)| [C++](./src/Triangle/Triangle.cpp) |Medium|
+|42|[Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)| [C++](./src/Ones%20and%20Zeroes/Ones%20and%20Zeroes.cpp) |Medium|
+|41|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [C++](./src/Counting%20Bits/Counting%20Bits.cpp) |Medium|
+|40|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)| [C++](./src/Repeated%20Substring%20Pattern/Repeated%20Substring%20Pattern.cpp) |Easy|
+|39|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [C++](./src/Validate%20IP%20Address/Validate%20IP%20Address.cpp) |Medium|
+|38|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./src/Valid%20Palindrome/Valid%20Palindrome.cpp) |Easy|
+|37|[Interleaving String](https://leetcode.com/problems/interleaving-string/)| [C++](./src/Interleaving%20String/Interleaving%20String.cpp) |Hard|
+|36|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)| [C++](./src/Find%20All%20Numbers%20Disappeared%20in%20an%20Array/Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp) |Easy|
+|35|[Single Number III](https://leetcode.com/problems/single-number-iii/)| [C++](./src/Single%20Number%20III/Single%20Number%20III.cpp) |Medium|
+|34|[Single Number II](https://leetcode.com/problems/single-number-ii/)| [C++](./src/Single%20Number%20II/Single%20Number%20II.cpp) |Medium|
+|33|[Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)| [C++](./src/Shortest%20Palindrome/Shortest%20Palindrome.cpp) |Hard|
+|32|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [C++](./src/Clone%20Graph/Clone%20Graph.cpp) |Medium|
+|31|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)| [C++](./src/Sliding%20Window%20Maximum/Sliding%20Window%20Maximum.cpp) |Hard|
 |30|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [C++](./src/Longest-Palindromic-Substring/Longest_Palindromic_Substring.cpp)|Medium|
 |29|[Median of Two Sorted Array](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [C++](./src/Median-2-Sorted-Array/Median 2 Sorted Array.cpp)|Hard|
-|28|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/Repeated-DNA-Sequences/Repeated DNA Sequences.cpp)|Hard|
+|28|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/Repeated-DNA-Sequences/Repeated DNA Sequences.cpp)|Medium|
 |27|[Word Search II](https://leetcode.com/problems/word-search-ii/)| [C++](./src/Word-Search-II/Word Search II.cpp)|Hard|
 |26|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [C++](./src/Implement-Trie-Prefix-Tree/Implement Trie (Prefix Tree).cpp)|Medium|
 |25|[Word Search](https://leetcode.com/problems/word-search/)| [C++](./src/Word-Search/Word Search.cpp)|Medium|

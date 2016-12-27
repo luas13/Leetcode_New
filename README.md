@@ -7,7 +7,12 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|52|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [C++](./src/Longest%20Increasing%20Subsequence/Longest%20Increasing%20Subsequence.cpp) |Medium|
+|57|[Paint House II &hearts;](https://leetcode.com/subscribe/)| [C++](./src/Paint House II/Paint House II.cpp) |hard|
+|56|[Paint House &hearts;](https://leetcode.com/subscribe/)| [C++](./src/Paint House/Paint House.cpp) |Medium|
+|55|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [C++](./src/Roman to Integer/Roman to Integer.cpp) |Easy|
+|54|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [C++](./src/Integer to Roman/Integer to Roman.cpp) |Medium|
+|53|[Integer Break](https://leetcode.com/problems/integer-break/)| [C++](./src/Integer Break/Integer Break.cpp) |Medium|
+|52|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)| [C++](./src/Longest Palindrome/Longest Palindrome.cpp) |Easy|
 |51|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [C++](./src/Longest%20Increasing%20Subsequence/Longest%20Increasing%20Subsequence.cpp) |Medium|
 |50|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)| [C++](./src/Perfect%20Squares/Perfect%20Squares.cpp) |Medium|
 |49|[Coin Change](https://leetcode.com/problems/coin-change/)| [C++](./src/Coin%20Change/Coin%20Change.cpp) |Medium|

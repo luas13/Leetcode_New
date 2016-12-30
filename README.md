@@ -7,8 +7,14 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|57|[Paint House II &hearts;](https://leetcode.com/subscribe/)| [C++](./src/Paint House II/Paint House II.cpp) |hard|
-|56|[Paint House &hearts;](https://leetcode.com/subscribe/)| [C++](./src/Paint House/Paint House.cpp) |Medium|
+|63|[Android Lock Pattern &hearts;](http://www.cnblogs.com/grandyang/p/5541012.html)| [C++](./src/Android Lock Pattern/Android Lock Pattern.cpp) |Medium|
+|62|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)| [C++](./src/Guess Number Higher or Lower II/Guess Number Higher or Lower II.cpp) |Medium|
+|61|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./src/Guess Number Higher or Lower/Guess Number Higher or Lower.cpp) |Easy|
+|60|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)| [C++](./src/Binary Tree Right Side View/Binary Tree Right Side View.cpp) |Medium|
+|59|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)| [C++](./src/Largest Divisible Subset/Largest Divisible Subset.cpp) |Medium|
+|58|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)| [C++](./src/Best Time to Buy and Sell Stock with Cooldown/Best Time to Buy and Sell Stock with Cooldown.cpp) |Medium|
+|57|[Paint House II &hearts;](http://buttercola.blogspot.com/2015/09/leetcode-paint-house-ii.html)| [C++](./src/Paint House II/Paint House II.cpp) |Hard|
+|56|[Paint House &hearts;](http://tiancao.me/Leetcode-Unlocked/LeetCode%20Locked/c1.15.html)| [C++](./src/Paint House/Paint House.cpp) |Medium|
 |55|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [C++](./src/Roman to Integer/Roman to Integer.cpp) |Easy|
 |54|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [C++](./src/Integer to Roman/Integer to Roman.cpp) |Medium|
 |53|[Integer Break](https://leetcode.com/problems/integer-break/)| [C++](./src/Integer Break/Integer Break.cpp) |Medium|

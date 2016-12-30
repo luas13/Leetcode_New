@@ -7,6 +7,9 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|66|[Frog Jump](https://leetcode.com/problems/frog-jump/)| [C++](./src/Frog Jump/Frog Jump.cpp) |Hard|
+|65|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [C++](./src/Jump Game II/Jump Game II.cpp) |Hard|
+|64|[Jump Game](https://leetcode.com/problems/jump-game/)| [C++](./src/Jump Game/Jump Game.cpp) |Medium|
 |63|[Android Lock Pattern &hearts;](http://www.cnblogs.com/grandyang/p/5541012.html)| [C++](./src/Android Lock Pattern/Android Lock Pattern.cpp) |Medium|
 |62|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)| [C++](./src/Guess Number Higher or Lower II/Guess Number Higher or Lower II.cpp) |Medium|
 |61|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./src/Guess Number Higher or Lower/Guess Number Higher or Lower.cpp) |Easy|

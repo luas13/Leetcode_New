@@ -7,6 +7,11 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|71|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [C++](./src/Is Subsequence/Is Subsequence.cpp) |Medium|
+|70|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/)| [C++](./src/Wiggle Subsequence/Wiggle Subsequence.cpp) |Medium|
+|69|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [C++](./src/Permutations II/Permutations II.cpp) |Medium|
+|68|[Permutations](https://leetcode.com/problems/permutations/)| [C++](./src/Permutations/Permutations.cpp) |Medium|
+|67|[Next Permutation](https://leetcode.com/problems/next-permutation/)| [C++](./src/Next Permutation/Next Permutation.cpp) |Medium|
 |66|[Frog Jump](https://leetcode.com/problems/frog-jump/)| [C++](./src/Frog Jump/Frog Jump.cpp) |Hard|
 |65|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [C++](./src/Jump Game II/Jump Game II.cpp) |Hard|
 |64|[Jump Game](https://leetcode.com/problems/jump-game/)| [C++](./src/Jump Game/Jump Game.cpp) |Medium|

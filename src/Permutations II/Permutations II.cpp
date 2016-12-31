@@ -15,7 +15,11 @@ public:
             
             for(int i=0; i<s; i++){
                 
-                //sort the array, so that the same number will be together
+                //sort the array from pos, so that the same number will be together
+                // *** Imp point is not to sort the array from beginning
+                // bcz lets say with {1,1,2} u get [[1,2,1], [2,1,1]]
+                // if u sort from begin [[1,2,1], [2,1,1]] -> [[1,1,2], [1,1,2]]
+                // so purpose destroyed
                 sort(vv[i].begin() + pos, vv[i].end());
                 
                 //take each number to the first

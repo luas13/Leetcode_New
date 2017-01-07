@@ -7,6 +7,11 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|80|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](./src/Trapping Rain Water/Trapping Rain Water.cppp) |Hard|
+|79|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)| [C++](./src/Palindrome Partitioning II/Palindrome Partitioning II.cpp) |Hard|
+|78|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [C++](./src/Palindrome Partitioning/Palindrome Partitioning.cpp) |Medium|
+|77|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)| [C++](./src/Maximum Gap/Maximum Gap.cpp) |Hard|
+|76|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [C++](./src/Group Anagrams/Group Anagrams.cpp) |Medium|
 |75|[Scramble String](https://leetcode.com/problems/scramble-string/)| [C++](./src/Scramble String/Scramble String.cpp) |Hard|
 |74|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [C++](./src/Regular Expression Matching/Regular Expression Matching.cpp) |Hard|
 |73|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [C++](./src/Longest Valid Parentheses/Longest Valid Parentheses.cpp) |Hard|

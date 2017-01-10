@@ -7,7 +7,16 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|80|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](./src/Trapping Rain Water/Trapping Rain Water.cppp) |Hard|
+|89|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)| [C++](./src/Top K Frequent Elements/Top K Frequent Elements.cpp) |Medium|
+|88|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [C++](./src/Valid Sudoku/Valid Sudoku.cpp) |Easy|
+|87|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [C++](./src/Sudoku Solver/Sudoku Solver.cpp) |Hard|
+|86|[Super Pow](https://leetcode.com/problems/super-pow/)| [C++](./src/Super Pow/Super Pow.cpp) |Medium|
+|85|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [C++](./src/Pow(x%2C n)/Pow(x%2C n).cpp) |Medium|
+|84|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)| [C++](./src/Find Median from Data Stream/Find Median from Data Stream.cpp) |Hard|
+|83|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)| [C++](./src/Course Schedule II/Course Schedule II.cpp) |Medium|
+|82|[Course Schedule](https://leetcode.com/problems/course-schedule/)| [C++](./src/Course Schedule/Course Schedule.cpp) |Medium|
+|81|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)| [C++](./src/Trapping Rain Water II/Trapping Rain Water II.cpp) |Hard|
+|80|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](./src/Trapping Rain Water/Trapping Rain Water.cpp) |Hard|
 |79|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)| [C++](./src/Palindrome Partitioning II/Palindrome Partitioning II.cpp) |Hard|
 |78|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [C++](./src/Palindrome Partitioning/Palindrome Partitioning.cpp) |Medium|
 |77|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)| [C++](./src/Maximum Gap/Maximum Gap.cpp) |Hard|

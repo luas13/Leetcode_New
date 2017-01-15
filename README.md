@@ -7,6 +7,10 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|93|[Design Snake Game &hearts;](http://www.cnblogs.com/grandyang/p/5558033.html)| [C++](./src/Design Snake Game/Design Snake Game.cpp) |Medium|
+|92|[Design Twitter](https://leetcode.com/problems/design-twitter/)| [C++](./src/Design Twitter/Design Twitter.cpp) |Medium|
+|91|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [C++](./src/Serialize and Deserialize Binary Tree/Serialize and Deserialize Binary Tree.cpp) |Hard|
+|90|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| [C++](./src/Unique Binary Search Trees/Unique Binary Search Trees.cpp) |Medium|
 |89|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)| [C++](./src/Top K Frequent Elements/Top K Frequent Elements.cpp) |Medium|
 |88|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [C++](./src/Valid Sudoku/Valid Sudoku.cpp) |Easy|
 |87|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [C++](./src/Sudoku Solver/Sudoku Solver.cpp) |Hard|

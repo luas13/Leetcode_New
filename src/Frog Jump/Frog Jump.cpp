@@ -1,6 +1,5 @@
 class Solution {
 public:
-    /*
     // Below solution is using queue and unordered map of <int, set>
     // It takes 812 ms but is quite intuitive
     bool canCross(vector<int>& stones) {
@@ -9,10 +8,10 @@ public:
             return false;
         queue<long long> q;
         
-		// unordered_map<long long, unordered_set<long long>> wont help
-		// will fail for this test case: [0,1,3,6,10,13,15,18]
+	// unordered_map<long long, unordered_set<long long>> wont help
+	// will fail for this test case: [0,1,3,6,10,13,15,18]
 		
-		unordered_map<long long, set<long long>> hash;
+	unordered_map<long long, set<long long>> hash;
         
         unordered_map<long long, long long> stones_map;
         for(int i=0; i<l; i++)
@@ -56,8 +55,9 @@ public:
         }
         return (!hash[stones[l-1]].empty());
     }
-    */
-    
+   
+    // 2nd Method:
+	
     // Below is a DP solution. O(N*N)
     // The elegance is you just need to add entries of the index which
     // can be reached in a hash table. At the same time we also add the

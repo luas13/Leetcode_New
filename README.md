@@ -11,22 +11,22 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 |92|[Design Twitter](https://leetcode.com/problems/design-twitter/)| [C++](./src/Design%20Twitter/Design%20Twitter.cpp) |Medium|
 |91|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [C++](./src/Serialize%20and%20Deserialize%20Binary%20Tree/Serialize%20and%20Deserialize%20Binary%20Tree.cpp) |Hard|
 |90|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| [C++](./src/Unique%20Binary%20Search%20Trees/Unique%20Binary%20Search%20Trees.cpp) |Medium|
-|89|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)| [C++](./src/Top%20K%20Frequent%20Elements/Top%20K Frequent%20Elements.cpp) |Medium|
-|88|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [C++](./src/Valid Sudoku/Valid%20Sudoku.cpp) |Easy|
+|89|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)| [C++](./src/Top%20K%20Frequent%20Elements/Top%20K%20Frequent%20Elements.cpp) |Medium|
+|88|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [C++](./src/Valid%20Sudoku/Valid%20Sudoku.cpp) |Easy|
 |87|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [C++](./src/Sudoku%20Solver/Sudoku%20Solver.cpp) |Hard|
 |86|[Super Pow](https://leetcode.com/problems/super-pow/)| [C++](./src/Super%20Pow/Super%20Pow.cpp) |Medium|
 |85|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [C++](./src/Pow(x%2C%20n)/Pow(x%2C%20n).cpp) |Medium|
-|84|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)| [C++](./src/Find%20Median%20from%20Data%20 Stream/Find%20Median%20from%20Data%20Stream.cpp) |Hard|
+|84|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)| [C++](./src/Find%20Median%20from%20Data%20Stream/Find%20Median%20from%20Data%20Stream.cpp) |Hard|
 |83|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)| [C++](./src/Course%20Schedule%20II/Course%20Schedule%20II.cpp) |Medium|
 |82|[Course Schedule](https://leetcode.com/problems/course-schedule/)| [C++](./src/Course%20Schedule/Course%20Schedule.cpp) |Medium|
 |81|[Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)| [C++](./src/Trapping%20Rain%20Water%20II/Trapping%20Rain%20Water%20II.cpp) |Hard|
 |80|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](./src/Trapping%20Rain%20Water/Trapping%20Rain%20Water.cpp) |Hard|
 |79|[Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/)| [C++](./src/Palindrome%20Partitioning%20II/Palindrome%20Partitioning%20II.cpp) |Hard|
-|78|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [C++](./src/Palindrome%20Partitioning/Palindrome Partitioning.cpp) |Medium|
+|78|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [C++](./src/Palindrome%20Partitioning/Palindrome%20Partitioning.cpp) |Medium|
 |77|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)| [C++](./src/Maximum%20Gap/Maximum%20Gap.cpp) |Hard|
 |76|[Group Anagrams](https://leetcode.com/problems/anagrams/)| [C++](./src/Group%20Anagrams/Group%20Anagrams.cpp) |Medium|
 |75|[Scramble String](https://leetcode.com/problems/scramble-string/)| [C++](./src/Scramble%20String/Scramble%20String.cpp) |Hard|
-|74|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [C++](./src/Regular%20Expression%20Matching/Regular%20Expression Matching.cpp) |Hard|
+|74|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)| [C++](./src/Regular%20Expression%20Matching/Regular%20Expression%20Matching.cpp) |Hard|
 |73|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)| [C++](./src/Longest%20Valid%20Parentheses/Longest%20Valid%20Parentheses.cpp) |Hard|
 |72|[Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)| [C++](./src/Longest%20Absolute%20File%20Path/Longest%20Absolute%20File%20Path.cpp) |Medium|
 |71|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [C++](./src/Is%20Subsequence/Is%20Subsequence.cpp) |Medium|
@@ -38,8 +38,8 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 |65|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)| [C++](./src/Jump%20Game%20II/Jump%20Game%20II.cpp) |Hard|
 |64|[Jump Game](https://leetcode.com/problems/jump-game/)| [C++](./src/Jump%20Game/Jump%20Game.cpp) |Medium|
 |63|[Android Lock Pattern &hearts;](http://www.cnblogs.com/grandyang/p/5541012.html)| [C++](./src/Android%20Lock%20Pattern/Android%20Lock%20Pattern.cpp) |Medium|
-|62|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)| [C++](./src/Guess%20Number%20Higher or%20Lower%20II/Guess%20Number%20Higher%20or%20Lower%20II.cpp) |Medium|
-|61|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./src/Guess%20Number%20Higher%20or Lower/Guess%20Number%20Higher%20or%20Lower.cpp) |Easy|
+|62|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)| [C++](./src/Guess%20Number%20Higher%20or%20Lower%20II/Guess%20Number%20Higher%20or%20Lower%20II.cpp) |Medium|
+|61|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)| [C++](./src/Guess%20Number%20Higher%20or%20Lower/Guess%20Number%20Higher%20or%20Lower.cpp) |Easy|
 |60|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)| [C++](./src/Binary%20Tree%20Right%20Side%20View/Binary%20Tree%20Right%20Side%20View.cpp) |Medium|
 |59|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)| [C++](./src/Largest%20Divisible%20Subset/Largest%20Divisible%20Subset.cpp) |Medium|
 |58|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)| [C++](./src/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.cpp) |Medium|
@@ -74,9 +74,9 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 |29|[Median of Two Sorted Array](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [C++](./src/Median-2-Sorted-Array/Median%20Sorted%20Array.cpp)|Hard|
 |28|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/Repeated-DNA-Sequences/Repeated%20DNA%20Sequences.cpp)|Medium|
 |27|[Word Search II](https://leetcode.com/problems/word-search-ii/)| [C++](./src/Word-Search-II/Word%20Search%20II.cpp)|Hard|
-|26|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [C++](./src/Implement-Trie-Prefix-Tree/Implement%20Trie%20(Prefix Tree).cpp)|Medium|
+|26|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [C++](./src/Implement-Trie-Prefix-Tree/Implement%20Trie%20(Prefix%20Tree).cpp)|Medium|
 |25|[Word Search](https://leetcode.com/problems/word-search/)| [C++](./src/Word-Search/Word%20Search.cpp)|Medium|
-|24|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [C++](./src/Minimum-Size-Subarray-Sum/Minimum Size%20Subarray%20Sum.cpp)|Medium|
+|24|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [C++](./src/Minimum-Size-Subarray-Sum/Minimum%20Size%20Subarray%20Sum.cpp)|Medium|
 |23|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)| [C++](./src/Spiral-Matrix/Spiral%20Matrix.cpp)|Medium|
 |22|[Minimum Path Sum](https://oj.leetcode.com/problems/minimum-path-sum/)| [C++](./src/Minimum-Path-Sum/Minimum%20Path%20Sum.cpp)|Medium|
 |21|[Maximum Product Subarray](https://oj.leetcode.com/problems/maximum-product-subarray/)| [C++](./src/Maximum-Product-Subarray/Maximum%20Product%20Subarray.cpp)|Medium|

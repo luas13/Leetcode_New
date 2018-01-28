@@ -40,7 +40,7 @@ public:
     }
     */
     
-    // DP Solution, O(N) ~ 0ms
+    // DP Solution, O(N) ~ 0ms, O(N) space
     // See the editorial explanation if stuck 
     int wiggleMaxLength(vector<int>& nums) {
         int l = nums.size();
@@ -84,5 +84,30 @@ public:
             }
         }
         return max(Incr[l-1], Decr[l-1]);
+    }
+};
+
+
+// DP soln O(n) time & O(1) space
+// No need of array because we just need last element
+// of incr or decr array
+
+class Solution {
+public:
+    int wiggleMaxLength(vector<int>& nums) {
+        int l = nums.size();
+        
+        if (!l)
+            return 0;
+        int inc= 1, dec= 1;
+        for(int i=1; i<l; i++)
+        {
+            if (nums[i] > nums[i-1])
+                inc= dec+1;
+            else if (nums[i] < nums[i-1])
+                dec= inc+1;
+        }
+        
+        return max(inc, dec);
     }
 };

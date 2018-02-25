@@ -7,6 +7,18 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|105|[3Sum](https://leetcode.com/problems/3sum/description/)| [C++](./src/3Sum/3Sum.cpp) |Medium|
+|104|[String Compression](https://leetcode.com/problems/string-compression/description/)| [C++](./src/String%20Compression/String%20Compression.cpp) |Easy|
+|103|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)| [C++](./src/LRU%20Cache/LRU%20Cache.cpp) |Hard|
+|102|[Task Scheduler](https://leetcode.com/problems/task-scheduler/description/)| [C++](./src/Task%20Scheduler/Task%20Scheduler.cpp) |Medium|
+|101|[Flood Fill](https://leetcode.com/problems/flood-fill/description/)| [C++](./src/Flood%20Fill/Flood%20Fill.cpp) |Easy|
+|100|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/)| [C++](./src/Min%20Cost%20Climbing%20Stairs/Min%20Cost%20Climbing%20Stairs.cpp) |Easy|
+|99|[Brick Wall](https://leetcode.com/problems/brick-wall/description/)| [C++](./src/Brick%20Wall/Brick%20Wall.cpp) |Medium|
+|98|[Target Sum](https://leetcode.com/problems/target-sum/description/)| [C++](./src/Target%20Sum/Target%20Sum.cpp) |Medium|
+|97|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [C++](./src/Partition%20Equal%20Subset%20Sum/Partition%20Equal%20Subset%20Sum.cpp) |Medium|
+|96|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [C++](./src/Longest%20Substring%20Without%20Repeating%20Characters/Longest%20Substring%20Without%20Repeating%20Characters.cpp) |Medium|
+|95|[Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/)| [C++](./src/Decode%20Ways%20II/Decode%20Ways%20II.cpp) |Hard|
+|94|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)| [C++](./src/Longest%20Consecutive%20Sequence/Longest_Consecutive_Sequence.cpp) |Hard|
 |93|[Design Snake Game &hearts;](http://www.cnblogs.com/grandyang/p/5558033.html)| [C++](./src/Design%20Snake%20Game/Design%20Snake%20Game.cpp) |Medium|
 |92|[Design Twitter](https://leetcode.com/problems/design-twitter/)| [C++](./src/Design%20Twitter/Design%20Twitter.cpp) |Medium|
 |91|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [C++](./src/Serialize%20and%20Deserialize%20Binary%20Tree/Serialize%20and%20Deserialize%20Binary%20Tree.cpp) |Hard|

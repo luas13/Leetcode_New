@@ -7,6 +7,17 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|116|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)| [C++](./src/Swap%20Nodes%20in%20Pairs/Swap%20Nodes%20in%20Pairs.cpp) |Medium|
+|115|[Sort List](https://leetcode.com/problems/sort-list/description/)| [C++](./src/Sort%20List/Sort%20List.cpp) |Medium|
+|114|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)| [C++](./src/Search%20in%20Rotated%20Sorted%20Array%20II/Search%20in%20Rotated%20Sorted%20Array%20II.cpp) |Medium|
+|113|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)| [C++](./src/Search%20in%20Rotated%20Sorted%20Array/Search%20in%20Rotated%20Sorted%20Array.cpp) |Medium|
+|112|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)| [C++](./src/Remove%20Nth%20Node%20From%20End%20of%20List/Remove%20Nth%20Node%20From%20End%20of%20List.cpp) |Medium|
+|111|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)| [C++](./src/Palindrome%20Linked%20List/Palindrome%20Linked%20List.cpp) |Easy|
+|110|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)| [C++](./src/Merge%20Two%20Sorted%20Lists/Merge%20Two%20Sorted%20Lists.cpp) |Easy|
+|109|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)| [C++](./src/Median%20of%20Two%20Sorted%20Arrays/Median%20of%20Two%20Sorted%20Arrays.cpp) |Hard|
+|108|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)| [C++](./src/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.cpp) |Hard|
+|107|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)| [C++](./src/Find%20Minimum%20in%20Rotated%20Sorted%20Array/Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) |Medium|
+|106|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)| [C++](./src/Delete%20Node%20in%20a%20Linked%20List/Delete%20Node%20in%20a%20Linked%20List.cpp) |Easy|
 |105|[3Sum](https://leetcode.com/problems/3sum/description/)| [C++](./src/3Sum/3Sum.cpp) |Medium|
 |104|[String Compression](https://leetcode.com/problems/string-compression/description/)| [C++](./src/String%20Compression/String%20Compression.cpp) |Easy|
 |103|[LRU Cache](https://leetcode.com/problems/lru-cache/description/)| [C++](./src/LRU%20Cache/LRU%20Cache.cpp) |Hard|
@@ -112,5 +123,15 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 |3|[Decode Ways](https://oj.leetcode.com/problems/decode-ways/)| [C++](./src/Decode-Ways/DecodeWays.cpp)|Medium|
 |2|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [C++](./src/Unique-Paths-II/Unique_Paths_II.cpp)|Medium|
 |1|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)| [C++](./src/Unique-Paths/Unique%20Paths.cpp)|Medium|
+
+|i|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)| [mySQL](./src/Combine%20Two%20Tables/Combine%20Two%20Tables.sql)|Easy|
+|h|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/description/)| [mySQL](./src/Customers%20Who%20Never%20Order/Customers%20Who%20Never%20Order.sql)|Easy|
+|g|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)| [mySQL](./src/Department%20Highest%20Salary/Department%20Highest%20Salary.sql)|Easy|
+|f|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)| [mySQL](./src/Department%20Highest%20Salary/Department%20Highest%20Salary.sql)|Easy|
+|e|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/)| [mySQL](./src/Delete%20Duplicate%20Emails/Delete%20Duplicate%20Emails.sql)|Easy|
+|d|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/description/)| [mySQL](./src/Duplicate%20Emails/Duplicate%20Emails.sql)|Easy|
+|c|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)| [mySQL](./src/Employees%20Earning%20More%20Than%20Their%20Managers/Employees%20Earning%20More%20Than%20Their%20Managers.sql)|Easy|
+|b|[Rising Temperature](https://leetcode.com/problems/rising-temperature/description/)| [mySQL](./src/Rising%20Temperature/Rising%20Temperature.sql)|Easy|
+|a|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/)| [mySQL](./src/Second%20Highest%20Salary/Second%20Highest%20Salary.sql)|Easy|
 
 

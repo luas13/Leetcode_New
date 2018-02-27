@@ -62,6 +62,7 @@ public:
             f[i][0] = 0;
             
         // When string is empty
+        // p[0.., j - 3, j - 2, j - 1] matches empty iff p[j - 1] is '*' and p[0..j - 3] matches empty
         for(int i=1; i<=n; i++)
             f[0][i] = i>1 && p[i-1] == '*' && f[0][i-2];
             

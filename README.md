@@ -7,6 +7,10 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|121|[Number Of Corner Rectangles The number of corner rectangles](http://www.cnblogs.com/grandyang/p/8433813.html)| [C++](./src/Number%20Of%20Corner%20Rectangles%20The%20number%20of%20corner%20rectangles/Number%20Of%20Corner%20Rectangles%20The%20number%20of%20corner%20rectangles.cpp) |Medium|
+|120|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)| [C++](./src/Largest%20Plus%20Sign/Largest%20Plus%20Sign.cpp) |Medium|
+|119|[4SumII](https://leetcode.com/problems/4sum-ii/description/)| [C++](./src/4Sum%20II/4Sum%20II.cpp) |Medium|
+|118|[4Sum](https://leetcode.com/problems/4sum/description/)| [C++](./src/4Sum/4Sum.cpp) |Medium|
 |117|[Moving Average from Data Stream &hearts;](http://www.cnblogs.com/grandyang/p/5450001.html)| [C++](./src/Moving%20Average%20from%20Data%20Stream/Moving%20Average%20from%20Data%20Stream.cpp) |Easy|
 |116|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)| [C++](./src/Swap%20Nodes%20in%20Pairs/Swap%20Nodes%20in%20Pairs.cpp) |Medium|
 |115|[Sort List](https://leetcode.com/problems/sort-list/description/)| [C++](./src/Sort%20List/Sort%20List.cpp) |Medium|

@@ -7,7 +7,7 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|121|[Number Of Corner Rectangles](http://www.cnblogs.com/grandyang/p/8433813.html)| [C++](./src/Number%20Of%20Corner%20Rectangles%20The%20number%20of%20corner%20rectangles/Number%20Of%20Corner%20Rectangles%20The%20number%20of%20corner%20rectangles.cpp) |Medium|
+|121|[Number Of Corner Rectangles &hearts;](http://www.cnblogs.com/grandyang/p/8433813.html)| [C++](./src/Number%20Of%20Corner%20Rectangles%20The%20number%20of%20corner%20rectangles/Number%20Of%20Corner%20Rectangles%20The%20number%20of%20corner%20rectangles.cpp) |Medium|
 |120|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)| [C++](./src/Largest%20Plus%20Sign/Largest%20Plus%20Sign.cpp) |Medium|
 |119|[4SumII](https://leetcode.com/problems/4sum-ii/description/)| [C++](./src/4Sum%20II/4Sum%20II.cpp) |Medium|
 |118|[4Sum](https://leetcode.com/problems/4sum/description/)| [C++](./src/4Sum/4Sum.cpp) |Medium|

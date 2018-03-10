@@ -32,7 +32,7 @@ i=2: val =1:
     -------------------
     0000 0000 0000 1111
     
-updated bits after i=1: 0000 0000 0000 1111
+updated bits after i=2: 0000 0000 0000 1111
 this shows that we can reach value 0, 1, 2 & 3 after seeing value 1 again
 
 
@@ -42,7 +42,7 @@ i=3: val =5:
     -------------------
     0000 0001 1110 1111
     
-updated bits after i=1: 0000 0001 1110 1111
+updated bits after i=3: 0000 0001 1110 1111
 this shows that we can reach value 
 0, 1, 2, 3, 5, 6, 7, 8 after seeing value 5 but can't reach 4
 

@@ -1,4 +1,48 @@
 /**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    TreeNode* helper(vector<int>& postorder, unordered_map<int, int> &mymap, int s, int e, int &postorder_index)
+    {
+        if (s>e)
+            return NULL;
+        
+        TreeNode* par = new TreeNode(postorder[postorder_index--]);
+        
+        int partition_index = mymap[par->val];
+        // *** Imp is to call right child first then the left child
+        par->right = helper(postorder, mymap, partition_index+1, e, postorder_index);
+        par->left = helper(postorder, mymap, s, partition_index-1, postorder_index);
+        
+        return par;
+    }
+    
+    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+        int il = inorder.size();
+        int pl = postorder.size();
+        
+        if (!il && !pl || il != pl)
+            return NULL;
+        
+        unordered_map<int, int> mymap;
+        for(int i=0; i<il; i++)
+            mymap[inorder[i]] = i;
+        
+        int postorder_index = pl-1;
+        return helper(postorder, mymap, 0, il-1, postorder_index);
+    }
+};
+
+
+------------------------------------------------------------------------------------------
+/**
  * Definition for binary tree
  * struct TreeNode {
  *     int val;

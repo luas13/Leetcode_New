@@ -6,6 +6,7 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 (Notes: "&hearts;" means you need buy a book from Leetcode)
 
 | # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |124|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)| [C++](./src/Integer%20To%20English%20Words/Integer_to_English_Words.cpp) |Hard|
 |123|[Largest Number](https://leetcode.com/problems/largest-number/description/)| [C++](./src/Largest%20Number/LargestNumber.cpp) |Medium|
 |122|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/)| [C++](./src/Skyline/Skyline.cpp) |Hard|

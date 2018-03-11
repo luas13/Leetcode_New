@@ -5,8 +5,12 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 (Notes: "&hearts;" means you need buy a book from Leetcode)
 
-| # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+| # | Title | Solution | Difficulty |
+| # | Title | Solution | Difficulty |
+|124|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)| [C++](./src/Integer%20To%20English%20Words/Integer_to_English_Words.cpp) |Hard|
+|123|[Largest Number](https://leetcode.com/problems/largest-number/description/)| [C++](./src/Largest%20Number/LargestNumber.cpp) |Medium|
+|122|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/)| [C++](./src/Skyline/Skyline.cpp) |Hard|
 |121|[Number Of Corner Rectangles &hearts;](http://www.cnblogs.com/grandyang/p/8433813.html)| [C++](./src/Number%20Of%20Corner%20Rectangles%20The%20number%20of%20corner%20rectangles/Number%20Of%20Corner%20Rectangles%20The%20number%20of%20corner%20rectangles.cpp) |Medium|
 |120|[Largest Plus Sign](https://leetcode.com/problems/largest-plus-sign/description/)| [C++](./src/Largest%20Plus%20Sign/Largest%20Plus%20Sign.cpp) |Medium|
 |119|[4SumII](https://leetcode.com/problems/4sum-ii/description/)| [C++](./src/4Sum%20II/4Sum%20II.cpp) |Medium|

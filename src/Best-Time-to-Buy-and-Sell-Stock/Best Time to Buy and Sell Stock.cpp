@@ -1,5 +1,29 @@
 class Solution {
 public:
+    int maxProfit(vector<int>& prices) {
+        int l = prices.size();
+        if (!l || l==1) 
+            return 0;
+        
+        int minv = INT_MAX;
+        int maxdiff = 0;
+        
+        for(int i=0; i<l; i++)
+        {
+            if (prices[i] < minv)
+                minv = prices[i];
+            if (prices[i] >= minv)
+                maxdiff = max(prices[i] - minv, maxdiff);
+        }
+        
+        return maxdiff;
+    }
+};
+
+
+---------------------------------------------------------------------------------------------------
+class Solution {
+public:
     int maxProfit(vector<int> &prices) {
         
         int min=0,maxd=0;

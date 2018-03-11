@@ -1,5 +1,36 @@
 /*
-!st check this solution:
+Read this to get the general idea: 
+https://leetcode.com/problems/single-number-ii/discuss/43295/Detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
+*/
+/*
+k is 3, then m = 2, we need two 32-bit integers(x2, x1) as the counter. 
+And 2^m > k so we do need a mask. Write k in its binary form: k = '11', 
+then k1 = 1, k2 = 1, so we have mask = ~(x1 & x2)
+
+*/
+
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int x1=0, x2= 0, mask;
+        
+        for(int n: nums)
+        {
+            x2 = x2 ^ (x1 & n);
+            x1 = x1 ^ n;
+            mask = ~(x1 & x2);
+            
+            x1 = x1 & mask;
+            x2 = x2 & mask;
+        }
+        return x1;
+    }
+};
+
+
+_______________________________________________________________________________________
+/*
+1st check this solution:
 
 To solve this problem using only constant space, you have to rethink how the 
 numbers are being represented in computers – using bits. If you sum the ith bit 

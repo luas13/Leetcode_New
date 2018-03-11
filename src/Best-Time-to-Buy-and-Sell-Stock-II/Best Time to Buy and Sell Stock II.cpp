@@ -1,3 +1,27 @@
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int l = prices.size();
+        if (!l || l==1) 
+            return 0;
+        
+        int minv = INT_MAX;
+        int maxprofit = 0;
+        
+        for(int i=0; i<l; i++)
+        {
+            if (prices[i] >= minv)
+                maxprofit += prices[i] - minv;
+            
+            minv = prices[i];
+        }
+        
+        return maxprofit;
+    }
+};
+
+
+____________________________________________________________________________________________________
 //Simple Code Method-1
 class Solution {
 public:

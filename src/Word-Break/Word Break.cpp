@@ -43,6 +43,9 @@ public:
         
         for(int i=0; i<l; i++)
         {
+            // for(int j=i; j>=0; j--)
+            // will give faster soln
+            
             for(int j=0; j<=i; j++)
             {
                 if( dp[j]  &&  dict.find( s.substr(j, i-j+1) ) != dict.end() )

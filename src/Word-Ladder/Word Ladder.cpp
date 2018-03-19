@@ -83,7 +83,6 @@ public:
                         {
                             if (myset.find(s) != myset.end() && mymap.find(s) == mymap.end())
                             {
-                                cout<<s<<endl;
                                 myqueue.push(s);
                                 mymap[s] = mymap[tmp] + 1;
                             }

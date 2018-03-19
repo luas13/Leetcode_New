@@ -1,4 +1,13 @@
 /*
+Due to the addition of new test case this solution does not work.
+TLE in 
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"]
+
+Check second solution:
+
+Soln: 1
+
   Thanks to haoel for the beautiful dp solution :)
   
   Notes:
@@ -40,8 +49,6 @@ string s at index {0 - 9 }                      result[i] at index {0 - 9 }
 	( declaration of v which is basically an empty vector of strings — a vector that contains zero elements )
 
 */
-
-
 class Solution {
 public:
     vector<string> wordBreak(string s, unordered_set<string> &dict) {
@@ -69,5 +76,59 @@ public:
     }
 
     return result[0]; 
+    }
+};
+
+
+
+____________________________________________________________________________________________________________
+
+/*
+2nd Soln: Using unordered_map to save whether a mini-solution 
+for a substring exists. if present just return it.
+
+Then use a recursive call to append soln.
+*/
+
+class Solution {
+    unordered_map<string, vector<string>> mymap;
+    unordered_set<string> myset;
+    
+    vector<string> combine(string word, vector<string> prev)
+    {
+        int i=0;
+        for(string s: prev)
+        {
+            s = s + " " + word;
+            prev[i++] = s;
+        }
+        return prev;
+    }
+public:
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
+        myset.insert(wordDict.begin(), wordDict.end());
+        
+        if (mymap.find(s) != mymap.end())
+            return mymap[s];
+        
+        vector<string> result;
+        
+        if (myset.find(s) != myset.end())
+            result.push_back(s);
+        
+        // i starts from 1
+	for(int i=1; i<s.size(); i++)
+        {
+            string tmp = s.substr(i);
+            if (myset.find(tmp) != myset.end())
+            {
+                string prefix = s.substr(0, i);
+                vector<string> vs = combine(tmp, wordBreak(prefix, wordDict));
+                // insert in the end
+		result.insert(result.end(), vs.begin(), vs.end());
+            }
+        }
+        mymap[s] = result;
+        return result;
     }
 };

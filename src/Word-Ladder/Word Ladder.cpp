@@ -44,51 +44,56 @@
 
 class Solution {
 public:
-    int ladderLength(string start, string end1, unordered_set<string> &dict) {
-    
-    queue<string> q;
-    map<string,int> change;
-    q.push(start);
-    change[start]= 1;
-  
-    while( !q.empty() )
-	{
-		string s=q.front();
-		string temp=s;
-		q.pop();
-
-		if(s == end1)
-			break;
-
-		for(int i=0; i<s.length(); i++)
-		{
-			s=temp;
-			for(char c='a'; c<='z'; c++)
-			{
-				if(s[i] != c)
-				{
-					s[i]=c;
-
-					if(s == end1)
-                                        {
-                    	                    change[end1]=change[temp] + 1;
-                    	                    return change[end1];
-                                        }
-                    
-                                        else{
-			                if(dict.find(s) != dict.end() && change.find(s) == change.end() )
-			                {
-			                    q.push(s);
-                                            change[s]= change[temp] + 1;
-			                }
-                                        }
-		                }
-	                }
-	        }
-
-	}
-	return change[end1];
+    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+        queue<string> myqueue;
+        map<string, int> mymap;
+        unordered_set<string> myset(wordList.begin(), wordList.end());
         
+	// in case endWord is not present in wordList
+        if (myset.find(endWord) == myset.end())
+            return 0;
+        
+        myqueue.push(beginWord);
+        mymap[beginWord] = 1;
+        
+        while(!myqueue.empty())
+        {
+            string s= myqueue.front();
+            myqueue.pop();
+            
+            if (beginWord == endWord)
+                break;
+            
+            string tmp = s;
+            
+            for(int i=0; i<s.length(); i++)
+            {
+                s = tmp;
+                for(char c='a'; c<='z'; c++)
+                {
+                    if (s[i] != c)
+                    {
+                        s[i] = c;
+                        if (s == endWord)
+                        {
+                            mymap[s] = mymap[tmp] + 1;
+                            return mymap[s];
+                        }
+                        else
+                        {
+                            if (myset.find(s) != myset.end() && mymap.find(s) == mymap.end())
+                            {
+                                cout<<s<<endl;
+                                myqueue.push(s);
+                                mymap[s] = mymap[tmp] + 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        return mymap[endWord];
     }
 };
 

@@ -102,7 +102,7 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 |32|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [C++](./src/Clone%20Graph/Clone%20Graph.cpp) |Medium|
 |31|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)| [C++](./src/Sliding%20Window%20Maximum/Sliding%20Window%20Maximum.cpp) |Hard|
 |30|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [C++](./src/Longest-Palindromic-Substring/Longest_Palindromic_Substring.cpp)|Medium|
-|29|[Median of Two Sorted Array](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [C++](./src/Median-2-Sorted-Array/Median%20Sorted%20Array.cpp)|Hard|
+|29|[Median of Two Sorted Array](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [C++](./src/Median%20of%20Two%20Sorted%20Arrays/Median%20of%20Two%20Sorted%20Arrays.cpp)|Hard|
 |28|[Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)| [C++](./src/Repeated-DNA-Sequences/Repeated%20DNA%20Sequences.cpp)|Medium|
 |27|[Word Search II](https://leetcode.com/problems/word-search-ii/)| [C++](./src/Word-Search-II/Word%20Search%20II.cpp)|Hard|
 |26|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [C++](./src/Implement-Trie-Prefix-Tree/Implement%20Trie%20(Prefix%20Tree).cpp)|Medium|

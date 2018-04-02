@@ -1,18 +1,42 @@
+/*
+Soln1: Space O(n)
 class Solution {
 public:
     int rob(vector<int>& nums) {
         int l = nums.size();
-        if (l == 0)
+        if (!l)
             return 0;
-        int maxsi = nums[0];
-        int maxse = 0;
+        
+        vector<int> dp(l, 0);
+        dp[0] = nums[0];
+        dp[1] = max(nums[0], nums[1]);
+        
+        for(int i=2; i<l; i++)
+            dp[i] = max(dp[i-1], dp[i-2] + nums[i]);
+        
+        return dp[l-1];
+    }
+};
+*/
+
+// Soln2: Space O(1)
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        int l = nums.size();
+        if (!l)
+            return 0;
+        
+        int maxi = nums[0];
+        int maxe = 0;
         
         for(int i=1; i<l; i++)
         {
-            int tmp = maxsi;
-            maxsi = max(maxsi, maxse + nums[i]);
-            maxse = max(maxse, tmp);
+            int tmp = maxi;
+            maxi = max(maxi, maxe+nums[i]);
+            maxe = max(maxe, tmp);
         }
-        return max(maxsi, maxse);
+        
+        return max(maxi, maxe);
     }
 };

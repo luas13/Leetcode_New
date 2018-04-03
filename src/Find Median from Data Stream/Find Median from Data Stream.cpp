@@ -87,15 +87,19 @@ Two priority queues:
 
 A max-heap lo to store the smaller half of the numbers
 A min-heap hi to store the larger half of the numbers
-The max-heap lo is allowed to store, at worst, one more element more than the min-heap hi. Hence if we have processed kk elements:
+The max-heap lo is allowed to store, at worst, one more element more than the min-heap hi. 
+Hence if we have processed kk elements:
 
 Adding a number num:
 
-Add num to max-heap lo. Since lo received a new element, we must do a balancing step for hi. So remove the largest element from lo and offer it to hi.
-The min-heap hi might end holding more elements than the max-heap lo, after the previous operation. We fix that by removing the smallest element from hi and offering it to lo.
+Add num to max-heap lo. Since lo received a new element, we must do a balancing step for hi. 
+So remove the largest element from lo and offer it to hi.
+The min-heap hi might end holding more elements than the max-heap lo, after the previous operation. 
+We fix that by removing the smallest element from hi and offering it to lo.
 The above step ensures that we do not disturb the nice little size property we just mentioned.
 
-A little example will clear this up! Say we take input from the stream [41, 35, 62, 5, 97, 108]. The run-though of the algorithm looks like this:
+A little example will clear this up! Say we take input from the stream [41, 35, 62, 5, 97, 108].
+The run-though of the algorithm looks like this:
 
 Adding number 41
 MaxHeap lo: [41]           // MaxHeap stores the largest value at the top (index 0)

@@ -6,9 +6,12 @@ sell[i] : Maximum profit which end with selling on day i or end
 with selling on a day before i and takes rest until the day i since then.
 
 Define Recursion
-buy[i]: To make a decision whether to buy at i, we either take a rest, by just using the old decision at i - 1, or sell at/before i - 2, then buy at i, We cannot sell at i - 1, then buy at i, because of cooldown.
+buy[i]: To make a decision whether to buy at i, we either take a rest, 
+by just using the old decision at i - 1, or sell at/before i - 2, 
+then buy at i, We cannot sell at i - 1, then buy at i, because of cooldown.
 
-sell[i]: To make a decision whether to sell at i, we either take a rest, by just using the old decision at i - 1, or buy at/before i - 1, then sell at i.
+sell[i]: To make a decision whether to sell at i, we either take a rest, 
+by just using the old decision at i - 1, or buy at/before i - 1, then sell at i.
 
 So we get the following formula:
 

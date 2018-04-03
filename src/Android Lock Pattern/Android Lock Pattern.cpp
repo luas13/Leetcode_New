@@ -73,7 +73,7 @@ public:
 			// Only one way for 5 as its unique 
 			ways  = countfromcurr(jumps, visit, 5, i-1);
 		}
-		countfromcurr(jumps, m, n, )
+		return ways;
 	}
 
 };

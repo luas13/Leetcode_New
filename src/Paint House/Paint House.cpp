@@ -36,6 +36,7 @@ int fun(int cost[][])
 
 
 //DP Solution... Bottom Up solution. Top down can also be done similarily
+// O(N) space, for O(1) space see next soln
 class Solution {
 public:
     int minCost(vector<vector<int>>& costs) {
@@ -60,5 +61,22 @@ public:
 	    }
 	}
 	return min(dp[0][0], min(dp[0][1], dp[0][2]));
+    }
+};
+
+			
+// Space O(1) 
+class Solution {
+public:
+    int minCost(vector<vector<int>>& costs) {
+        if (costs.empty()) return 0;
+        int n = costs.size(), r = 0, g = 0, b = 0;
+        for (int i = 0; i < n; i++) {
+            int rr = r, bb = b, gg = g;
+            r = costs[i][0] + min(bb, gg);
+            b = costs[i][1] + min(rr, gg);
+            g = costs[i][2] + min(rr, bb);
+        }
+        return min(r, min(b, g));
     }
 };

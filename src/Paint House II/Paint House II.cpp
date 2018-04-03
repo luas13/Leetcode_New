@@ -58,15 +58,15 @@ public:
 		    dp[j] = costs[i][j] + prev_min1;
 		else
 		    dp[j] = costs[i][j] + prev_min2;
-            }
 			
-	    if (dp[j] <= first_min_prevrow)
-	    {
-		second_min_prevrow = first_min_prevrow;
-		first_min_prevrow = dp[j];
+	    	if (dp[j] <= first_min_prevrow)
+	    	{
+		    second_min_prevrow = first_min_prevrow;
+		    first_min_prevrow = dp[j];
+	    	}
+	    	else if (dp[j] < second_min_prevrow)
+		    second_min_prevrow = dp[j];
 	    }
-	    else if (dp[j] < second_min_prevrow)
-		second_min_prevrow = dp[j];
         }
         return first_min_prevrow;
     }

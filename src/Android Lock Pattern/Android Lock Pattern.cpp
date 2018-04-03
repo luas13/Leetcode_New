@@ -71,7 +71,7 @@ public:
 			// Symmetry for 2,4,6,8
 			ways += 4 * countfromcurr(jumps, visit, 2, i-1);
 			// Only one way for 5 as its unique 
-			ways  = 4 * countfromcurr(jumps, visit, 5, i-1);
+			ways  = countfromcurr(jumps, visit, 5, i-1);
 		}
 		countfromcurr(jumps, m, n, )
 	}

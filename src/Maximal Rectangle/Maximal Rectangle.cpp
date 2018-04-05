@@ -1,3 +1,4 @@
+// Soln 1
 class Solution {
 public:
     // Used the same function used to calculate maximum rectangular area in a histogram
@@ -67,5 +68,68 @@ public:
         }
         
         return maxrect_area;
+    }
+};
+
+
+// Soln 2
+// Just O(c) space
+class Solution {
+public:
+    int largestRectangleArea(vector<int>& heights) {
+        int l = heights.size();
+        if (!l)
+            return 0;
+        
+        stack<int> mystack;
+        int max_area = INT_MIN;
+        int i=0;
+        
+        while(i<l)
+        {
+            if (mystack.empty() || heights[i] >= heights[mystack.top()])
+                mystack.push(i++);
+            else
+            {
+                int y = mystack.top();
+                mystack.pop();
+                
+                max_area = max(max_area, (heights[y]) * (mystack.empty()?i: i-mystack.top()-1));
+            }
+        }
+        
+        while(!mystack.empty())
+        {
+            int y = mystack.top();
+            mystack.pop();
+                
+            max_area = max(max_area, (heights[y]) * (mystack.empty()?i: i-mystack.top()-1));
+        }
+        return max_area;
+    }
+    
+    int maximalRectangle(vector<vector<char>>& matrix) {
+        int r = matrix.size();
+        if (!r)
+            return 0;
+        
+        int c = matrix[0].size();
+        
+        int max_area = 0;
+        vector<int> row(c, 0);
+        
+        for(int i=0; i<r; i++)
+        {
+            for(int j=0; j<c; j++)
+            {
+                if (matrix[i][j] != '0')
+                    row[j] += matrix[i][j] - '0';
+                else
+                    row[j] =0;
+            }
+            
+            max_area = max(max_area, largestRectangleArea(row));
+        }
+        return max_area;
     }
 };

@@ -15,7 +15,17 @@ For every new location you reach, populate it's set with k-1, k, k+1 steps, wher
 was used to reach it
 
 At the end just check if the set corresponding to last stone is non empty, that will suggest
-that we have at least one step which will take us out.
+that at least one previous index has the jump capability to reach till last stone. eg. Let's 
+say if the frog's last jump was k units from any previous index i which made it reach the last 
+stone then the set corressponding to last stone will have at least these values (k-1, k, k+1 ...).
+I put ... because last stone could be reached from more than 1 previous index. Since we also
+have an optimization check 
+
+if (newv == stones[l-1])
+ 	return 1;
+
+this will ensure that we return true if it's possible the moment we reach last stone.
+At the end if we can't reach the last stone then that statement comes into picture.
 
 */
 

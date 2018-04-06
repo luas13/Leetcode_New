@@ -47,9 +47,14 @@ public:
         
         int pos=0;
         
+        // for every position
         while(pos < nums.size()-1){
+            
+            // This is a very imp step, otherwise infinite loop
+            // because vv.size() increases inside the coming loop
             int s= vv.size();
             
+            // for each vector in vector of vector
             for(int i=0; i<s; i++){
                 // Keep generating a vector by swapping all elements from
                 // pos+1 to length-1. Generate total (length-1 - (pos+1) + 1)

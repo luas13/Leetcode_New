@@ -1,3 +1,24 @@
+/*
+My soln: 1
+
+unordered_map<long long, set<long long>> hash to keep track of the amount
+of jumps one can take from a particular index, set bcz it will be in sorted manner
+& we can again evaluate the same for the indexes which can be reached from current
+index.
+
+queue<long long> keeps track of index which needs computation
+
+unordered_map<long long, long long> stones_map keeps track of which
+position are safe i.e. stones exists, it's just a mapper
+
+For every new location you reach, populate it's set with k-1, k, k+1 steps, where k 
+was used to reach it
+
+At the end just check if the set corresponding to last stone is non empty, that will suggest
+that we have at least one step which will take us out.
+
+*/
+
 class Solution {
 public:
     // Below solution is using queue and unordered map of <int, set>

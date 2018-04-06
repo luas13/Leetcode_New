@@ -138,3 +138,30 @@ public:
     }
     
 };
+
+//---------------------------------------------------------
+// 2nd Method Clean code
+class Solution {
+public:
+    bool canCross(vector<int>& stones) {
+        int l = stones.size();
+        
+        if (!l || l==1 || stones[1] != 1)
+            return false;
+        
+        unordered_map<long long, unordered_set<long long>> hash;
+        hash[0].insert(0);
+        
+        for( long long pos: stones)
+        {
+            for(long long step: hash[pos])
+            {
+                if (step - 1 > 0) hash[pos + step-1].insert(step-1);
+                hash[pos + step].insert(step);
+                hash[pos + step+1].insert(step+1);
+            }
+        }
+        
+        return (!hash[stones[l-1]].empty());
+    }
+};

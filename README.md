@@ -7,6 +7,12 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|130|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)| [C++](./src/Spiral%20Matrix%202/Spiral_Matrix2.cpp) |Medium|
+|129|[Minimum Window Substring](https://leetcode.com/problems/rotate-image/description/)| [C++](./src/Rotate%20Image/Rotate_Image.cpp) |Medium|
+|128|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)| [C++](./src/Minimum%20Window%20Substring/Minimum%20Window%20Substring.cpp) |Hard|
+|127|[Min Stack](https://leetcode.com/problems/min-stack/description/)| [C++](./src/Min_Stack/min_stack.cpp) |Easy|
+|126|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)| [C++](./src/Merge_K_Sorted_Lists/Merge_K_Sorted_Lists.cpp) |Hard|
+|125|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)| [C++](./src/Maximum%20Product%20of%20Three%20Numbers/Maximum%20Product%20of%20Three%20Numbers.cpp) |Easy|
 |124|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words/description/)| [C++](./src/Integer%20To%20English%20Words/Integer_to_English_Words.cpp) |Hard|
 |123|[Largest Number](https://leetcode.com/problems/largest-number/description/)| [C++](./src/Largest%20Number/LargestNumber.cpp) |Medium|
 |122|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/)| [C++](./src/Skyline/Skyline.cpp) |Hard|

@@ -7,6 +7,19 @@ bool isSubsequence(char* s, char* t) {
 }
 */
 
+// Soln 2, c++ 5 lines, ~75ms
+class Solution {
+public:
+    bool isSubsequence(string s, string t) {
+        int sl = s.length(), tl = t.length();
+        int sidx = 0;
+        for(int i=0; i<tl && sidx < sl; i++)
+            if (t[i] == s[sidx]) sidx++;
+        return sidx == sl;
+    }
+};
+// ------------------------------------------------
+
 // C++ solution ~ 86 ms
 class Solution {
 public:

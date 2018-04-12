@@ -7,6 +7,9 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|133|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/description/)| [C++](./src/Encode%20and%20Decode%20TinyURL/Encode%20and%20Decode%20TinyURL.cpp) |Medium|
+|132|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)| [C++](./src/Letter%20Combinations%20of%20a%20Phone%20Number/Letter%20Combinations%20of%20a%20Phone%20Number.cpp) |Medium|
+|131|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)| [C++](./src/Isomorphic%20Strings/Isomorphic%20Strings.cpp) |Easy|
 |130|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)| [C++](./src/Spiral%20Matrix%202/Spiral_Matrix2.cpp) |Medium|
 |129|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)| [C++](./src/Rotate%20Image/Rotate_Image.cpp) |Medium|
 |128|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)| [C++](./src/Minimum%20Window%20Substring/Minimum%20Window%20Substring.cpp) |Hard|

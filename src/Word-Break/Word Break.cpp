@@ -1,4 +1,5 @@
 /*
+*   Soln1: Good method but Tc: O(n^2), 10ms
 *   In case of unsorted_set,O(n) is the worst running time of search when all the elements are in the same bucket.
 *   Make a table dp, such that, dp[i] means if s[0..i-1] can be segmented.
 *   dp[i+1] = dp[j] is true && s[j..i] in dict, for j = 0..i
@@ -58,5 +59,83 @@ public:
         
         return dp[l];
         
+    }
+};
+
+
+// Soln 2: Better O(n*l) where l = length of dictionary, 7ms
+// For each character in string we check each word in Dictionary
+// All we need is to see if substring of given string is present in dict
+// Thus we reduce the time complexity
+class Solution {
+public:
+    //bool wordBreak(string s, vector<string>& wordDict) {
+    bool wordBreak(string s, vector<string>& wordDict)
+    {
+        unordered_set<string> dict(wordDict.begin(), wordDict.end());
+        
+        int l = s.length();
+        if (!l)
+            return false;
+
+        vector<int> dp(l+1, 0);
+        dp[0] = 1;
+
+        for(int i=0; i<l; i++)
+        {
+            if (dp[i])
+            {
+                for (auto it= dict.begin(); it != dict.end(); it++)
+                {
+                    string ds = *it;
+                    int dsl = ds.length();
+                    if (i + dsl < l)
+                    {
+                        if (dict.find( s.substr(i,dsl) ) != dict.end())
+                            dp[i+ds.length()] = 1;
+                    }
+                    else
+                    {
+                        if (dict.find( s.substr(i) ) != dict.end())
+                            dp[l] = 1;
+                    }
+                }
+            }
+        }
+            
+        return dp[l];
+    } 
+};
+
+
+// Best 4ms
+// Same funda as above, but use of break and more clean
+// started the loop from i=1, if it's initialised with
+// i=0 then you need to change at various places like
+// dp[i-wl] to dp[i-wl+1] etc
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        int l = s.length();
+        if (!l)
+            return false;
+        vector<int> dp(l+1, 0);
+        dp[0] = 1;
+        
+        for(int i=1; i<=l; i++)
+        {
+            for(auto word: wordDict)
+            {
+                int wl = word.length();
+                if (i < wl || !dp[i-wl])
+                    continue;
+                if (s.substr(i-wl, wl) == word)
+                {
+                    dp[i] = 1;
+                    break;
+                }
+            }
+        }
+        return dp[l];
     }
 };

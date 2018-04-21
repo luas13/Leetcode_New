@@ -1,3 +1,34 @@
+// Soln: 1, Short Soln
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        if (!head)
+            return NULL;
+        if (!head->next && n==1)
+            return NULL;
+        
+        ListNode dummy = ListNode(0);
+        dummy.next = head;
+        ListNode* ahead = head, *start = head, *prev=&dummy;
+        
+        for(int i=0; i<n-1; i++)
+            ahead = ahead->next;
+        while(ahead->next != NULL)
+        {
+            prev= start;
+            start = start->next;
+            ahead = ahead->next;
+        }
+        
+        prev->next = start->next;
+        start->next = NULL;
+        delete(start);
+        
+        return dummy.next;
+    }
+};
+
+// Soln: 2
 /**
  * Definition for singly-linked list.
  * struct ListNode {

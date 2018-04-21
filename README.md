@@ -7,6 +7,9 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|136|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)| [C++](./src/Generate%20Parentheses/Generate%20Parentheses.cpp) |Medium|
+|135|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)| [C++](./src/First%20Unique%20Character%20in%20a%20String/First%20Unique%20Character%20in%20a%20String.cpp) |Easy|
+|134|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)| [C++](./src/Find%20K%20Closest%20Elements/Find%20K%20Closest%20Elements.cpp) |Medium|
 |133|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/description/)| [C++](./src/Encode%20and%20Decode%20TinyURL/Encode%20and%20Decode%20TinyURL.cpp) |Medium|
 |132|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)| [C++](./src/Letter%20Combinations%20of%20a%20Phone%20Number/Letter%20Combinations%20of%20a%20Phone%20Number.cpp) |Medium|
 |131|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)| [C++](./src/Isomorphic%20Strings/Isomorphic%20Strings.cpp) |Easy|

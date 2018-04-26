@@ -88,3 +88,59 @@ public:
 // Your Solution object will be instantiated and called as such:
 // Solution solution;
 // solution.decode(solution.encode(url));
+
+
+// Soln2: Same but with better pneumonic variables to understand better
+class Solution {
+    string dict = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    unordered_map<int, string> dbId_to_longUrl;
+    unordered_map<string, string> long_to_short;
+    long int database_id;
+public:
+    Solution(){
+        database_id = 0;
+    }
+
+    // Encodes a URL to a shortened URL.
+    string encode(string longUrl) {
+        if (long_to_short.find(longUrl) != long_to_short.end())
+            return long_to_short[longUrl];
+        
+        database_id++;
+        int count = database_id;
+        string shortUrl= "";
+        
+        while(count > 0)
+        {
+            shortUrl = dict[count%62] + shortUrl;
+            count /= 62;
+        }
+        
+        if (shortUrl.length() < 6)
+        {
+            shortUrl = "0" + shortUrl;
+        }
+        
+        dbId_to_longUrl[database_id] = longUrl;
+        long_to_short[longUrl] = shortUrl;
+        
+        return shortUrl;
+     }
+
+    // Decodes a shortened URL to its original URL.
+    string decode(string shortUrl) {
+        long int id = 0;
+        for(int i=0; i<shortUrl.length(); i++)
+        {
+            id = 62*id + dict.find(shortUrl[i]);
+        }
+        
+        if (dbId_to_longUrl.find(id) != dbId_to_longUrl.end())
+            return dbId_to_longUrl[id];
+        return "";
+    }
+};
+
+// Your Solution object will be instantiated and called as such:
+// Solution solution;
+// solution.decode(solution.encode(url));

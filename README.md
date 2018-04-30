@@ -7,6 +7,15 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|145|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)| [C++](./src/Valid%20Parenthesis%20String/Valid%20Parenthesis%20String.cpp) |Medium|
+|144|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)| [C++](./src/Valid%20Parentheses/Valid%20Parentheses.cpp) |Easy|
+|143|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)| [C++](./src/Symmetric%20Tree/Symmetric%20Tree.cpp) |Easy|
+|142|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)| [C++](./src/Reverse%20Linked%20List%20II/Reverse%20Linked%20List%20II.cpp) |Easy|
+|141|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)| [C++](./src/Reverse%20Linked%20List/Reverse%20Linked%20List.cpp) |Easy|
+|140|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)| [C++](./src/Linked%20List%20Cycle/Linked%20List%20Cycle.cpp) |Easy|
+|139|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)| [C++](./src/Find%20All%20Anagrams%20in%20a%20String/Find%20All%20Anagrams%20in%20a%20String.cpp) |Easy|
+|138|[Decode String](https://leetcode.com/problems/decode-string/description/)| [C++](./src/Decode%20String/Decode%20String.cpp) |Medium|
+|137|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)| [C++](./src/Container%20With%20Most%20Water/Container%20With%20Most%20Water.cpp) |Medium|
 |136|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)| [C++](./src/Generate%20Parentheses/Generate%20Parentheses.cpp) |Medium|
 |135|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)| [C++](./src/First%20Unique%20Character%20in%20a%20String/First%20Unique%20Character%20in%20a%20String.cpp) |Easy|
 |134|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)| [C++](./src/Find%20K%20Closest%20Elements/Find%20K%20Closest%20Elements.cpp) |Medium|

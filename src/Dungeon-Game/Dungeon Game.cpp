@@ -1,3 +1,36 @@
+// Soln2: A bit cleaner
+// Bottom up approach, Top down is quite complex
+// Bootom up Intution: Path to be taken depends upon the future demons 
+// seen on the way to princess
+// dp[i][j] represents the min health needed at position (i, j)
+// We add extra row & column to make it cleaner & initialize with INT_MAX
+
+class Solution {
+public:
+    int calculateMinimumHP(vector<vector<int>>& dungeon) {
+        int r = dungeon.size();
+        if (!r)
+            return 0;
+        int c = dungeon[0].size();
+        
+        vector<vector<int>> dp(r+1, vector<int> (c+1, INT_MAX));
+        dp[r][c-1] = 1;
+        dp[r-1][c] = 1;
+        int need;
+        
+        for(int i=r-1; i>=0; i--)
+        {
+            for (int j=c-1; j>=0; j--)
+            {
+                need = min(dp[i][j+1], dp[i+1][j]) - dungeon[i][j];
+                dp[i][j] = need <= 0 ? 1 : need;
+            }
+        }
+        
+        return dp[0][0];
+    }
+};
+
 /*
 This code changes the dungeon array so to avoid it ,you can copy it first.
 Note: A Bottom-Up approach.

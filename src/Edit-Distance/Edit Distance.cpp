@@ -17,6 +17,8 @@ B = [B1, B2,…, Bm]
 
 Notice that the lengths of A and B (n and m respectively) might be different.
 
+We define the state dp[i][j] to be the minimum number of operations to convert word1[0..i - 1] to word2[0..j - 1].
+
 We know that in the end, both strings will need to have the same length and match their characters on each position. 
 So, if we take just the first character of A and B, what choices do we have? We have 3 different transformations that 
 we can apply so we have 3 choices as well:

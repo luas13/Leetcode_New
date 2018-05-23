@@ -1,6 +1,62 @@
 // Think of 3x3 matrix, first Swap the end points, top left, top right
 // bottom left, bottom right & make sure they are in their correct place
 // Then the middle diamond elements
+// So we 1st make the outer boundary to it's rotated position, then
+// enter to inner boundary and change it to their rotated position
+
+/*
+1 2 3
+4 5 6
+7 8 9
+
+a=0 & b=2 in this case
+
+while loop runs once bcz after completeion of 1st for loop
+a = 1 & b= 1 & this violates the while condition
+
+    1)
+        for loop calls 3 swap function each till b-a (twice in this case)
+        1st
+            1st swap changes 3 <-> 1
+            3 2 1
+            4 5 6
+            7 8 9
+
+            2nd swap changes 3 <-> 9
+            9 2 1
+            4 5 6
+            7 8 3
+
+            3rd swap changes 9 <-> 7
+            7 2 1
+            4 5 6
+            9 8 3
+
+        2nd
+            1st swap changes 2 <-> 6
+            7 6 1
+            4 5 2
+            9 8 3
+
+            2nd swap changes 6 <-> 8
+            7 8 1
+            4 5 2
+            9 6 3
+
+            3rd swap changes 8 <-> 4
+            7 4 1
+            8 5 2
+            9 6 3
+            
+ 5 remains untouched
+ at the end, result is
+ 
+ 7 4 1
+ 8 5 2
+ 9 6 3
+
+*/
+
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -8,8 +64,12 @@ public:
         int a = 0;
         int b = n-1;
         
+        // this loop controls the radius of the boundary
+        // as it decreases
         while(a < b)
         {
+            // this loop changes one boundary elements to it's
+            // rotated positions
             for(int i=0; i<(b-a); i++)
             {
                 // 1 trick, write matrix[a][a+i] thrice

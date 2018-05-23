@@ -5,6 +5,12 @@
 // enter to inner boundary and change it to their rotated position
 
 /*
+while loop controls the radius of the boundary as it decreases inwards
+& for loop make sure each element in current boundary reaches it's 
+rotated position
+
+Example image:
+
 1 2 3
 4 5 6
 7 8 9

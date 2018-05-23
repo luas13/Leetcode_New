@@ -91,3 +91,36 @@ public:
         }
     }
 };
+
+
+
+// In case you need it ANTI-clockwise
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int n = matrix.size();
+        int a = 0;
+        int b = n-1;
+        
+        while(a < b)
+        {
+            for(int i=0; i<(b-a); i++)
+            {
+                // 1 trick, write matrix[a+i][b] thrice
+                swap(matrix[a+i][b], matrix[a][a+i]);
+                swap(matrix[a+i][b], matrix[b-i][a]);
+                swap(matrix[a+i][b], matrix[b][b-i]);
+            }
+            
+            a++;
+            b--;
+        }
+        
+        for(int i=0; i<n; i++)
+        {
+            for(int j=0; j<n; j++)
+                cout<<matrix[i][j]<<" ";
+            cout<<endl;
+        }
+    }
+};

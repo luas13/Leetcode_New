@@ -130,3 +130,29 @@ public:
         }
     }
 };
+
+// Another simple hack to get anti-clockwise rotation
+// Check thoroughly, ran only on 2 test cases
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int r = matrix.size();
+        if (!r)
+            return;
+        int a = 0;
+        int b=r-1;
+        
+        while(a<b)
+        {
+            for(int i=0; i<(b-a); i++)
+            {
+                swap(matrix[a][a+i], matrix[b-i][a]);
+                swap(matrix[a][a+i], matrix[b][b-i]);
+                swap(matrix[a][a+i], matrix[a+i][b]);   
+            }
+            
+            a++;
+            b--;
+        }
+    }
+};

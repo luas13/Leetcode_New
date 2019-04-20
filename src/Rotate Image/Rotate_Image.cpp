@@ -1,3 +1,9 @@
+// First create a 4x4 matrix with dots. Create dotted second "outermost" rectangle
+// which is in the current context of swap.
+// See the indexes (whether row / column) which changes and which remain fixed
+// while you try to swap. This will give you an idea of which row/column index
+// needs to be added or substracted with "i"
+
 // Think of 3x3 matrix, first Swap the end points, top left, top right
 // bottom left, bottom right & make sure they are in their correct place
 // Then the middle diamond elements

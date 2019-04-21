@@ -1,7 +1,10 @@
 /*
 We calculate the LPS of the new string which is string + "#" + mirrored_string
 LPS[i] = for string [0 to i], it is length of the longest proper suffix which is
-also the longest proper prefix
+also the longest proper prefix.
+
+Here len = length of longest proper prefix which is also proper suffix for 
+the substring [0 to i-1]
 */
 
 void computeLPS(string pat, int* lps, int n)

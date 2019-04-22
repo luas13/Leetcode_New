@@ -8,7 +8,7 @@ How we do this? The first idea come up with is find the pattern or rules for the
 
 Index : 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 
-num : 0 1 1 2 1 2 2 3 1 2 2 3 2 3 3 4
+num :   0 1 1 2 1 2 2 3 1 2  2 3  2  3  3  4
 
 Do you find the pattern?
 

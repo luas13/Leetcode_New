@@ -19,6 +19,7 @@ public:
             else
             {
                 int topi = s.top();
+                // Imp: we pop the top element first
                 s.pop();
                 
                 max_area = max(max_area, heights[topi] * (s.empty() ? i : i-1 - s.top()) );

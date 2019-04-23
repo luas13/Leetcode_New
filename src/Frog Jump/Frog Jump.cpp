@@ -89,6 +89,9 @@ public:
    
     // 2nd Method:
 	
+    // Key of hash: index which are reachable
+    // val of hash: how many steps taken to reach this index (stored in a set)
+	
     // Below is a DP solution. O(N*N)
     // The elegance is you just need to add entries of the index which
     // can be reached in a hash table. At the same time we also add the

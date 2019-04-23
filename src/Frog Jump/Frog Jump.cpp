@@ -165,3 +165,156 @@ public:
         return (!hash[stones[l-1]].empty());
     }
 };
+
+
+
+/*
+In case you want to see the content of hash after every loop on stone's position
+
+class Solution {
+public:
+    bool canCross(vector<int>& stones) {
+        int l = stones.size();
+        
+        if (!l || l==1 || stones[1] != 1)
+            return false;
+        
+        unordered_map<long long, unordered_set<long long>> hash;
+        hash[0].insert(0);
+        
+        for( long long pos: stones)
+        {
+            cout<<"hash content before"<<endl;
+            for(auto ith = hash.begin(); ith != hash.end(); ith++)
+            {
+                cout<<ith->first<<"->";
+                
+                for(unordered_set<long long>::iterator it= ith->second.begin(); it != ith->second.end(); it++)
+                    cout<<*it<<", ";
+                
+                cout<<endl;
+            }
+            cout<<endl;
+            
+            for(long long step: hash[pos])
+            {
+                if (step - 1 > 0) hash[pos + step-1].insert(step-1);
+                hash[pos + step].insert(step);
+                hash[pos + step+1].insert(step+1);
+            }
+            
+            cout<<"hash content after"<<endl;
+            for(auto ith = hash.begin(); ith != hash.end(); ith++)
+            {
+                cout<<ith->first<<"->";
+                
+                for(unordered_set<long long>::iterator it= ith->second.begin(); it != ith->second.end(); it++)
+                    cout<<*it<<", ";
+                
+                cout<<endl;
+            }
+            cout<<endl;
+        }
+        
+        return (!hash[stones[l-1]].empty());
+    }
+};
+
+
+Example:
+[0,1,3,4,5,7,9,10,12]
+
+hash content before
+0->0, 
+
+hash content after
+1->1, 
+0->0, 
+
+hash content before
+1->1, 
+0->0, 
+
+hash content after
+3->2, 
+2->1, 
+0->0, 
+1->1, 
+
+hash content before
+3->2, 
+2->1, 
+0->0, 
+1->1, 
+
+hash content after
+6->3, 
+1->1, 
+0->0, 
+2->1, 
+3->2, 
+4->1, 
+5->2, 
+
+hash content before
+6->3, 
+1->1, 
+0->0, 
+2->1, 
+3->2, 
+4->1, 
+5->2, 
+
+hash content after
+6->2, 3, 
+1->1, 
+0->0, 
+2->1, 
+3->2, 
+4->1, 
+5->1, 2, 
+
+hash content before
+6->2, 3, 
+1->1, 
+0->0, 
+2->1, 
+3->2, 
+4->1, 
+5->1, 2, 
+
+hash content after
+8->3, 
+7->2, 
+6->1, 3, 2, 
+1->1, 
+0->0, 
+2->1, 
+3->2, 
+4->1, 
+5->1, 2, 
+
+hash content before
+8->3, 
+7->2, 
+6->1, 3, 2, 
+1->1, 
+0->0, 
+2->1, 
+3->2, 
+4->1, 
+5->1, 2, 
+
+hash content after
+10->3, 
+9->2, 
+8->1, 3, 
+7->2, 
+6->1, 3, 2, 
+1->1, 
+0->0, 
+2->1, 
+3->2, 
+4->1, 
+5->1, 2,
+*/

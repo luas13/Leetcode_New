@@ -1,3 +1,9 @@
+/*
+We dont actually sort the array, we just have to fill the buckets and keep track 
+of maximum and minimum value of each bucket. If we found an empty bucket, The 
+maximum gap would be the difference of 
+"maximum value in previous bucket – minimum value in next bucket"
+*/
 class Solution {
 public:
     // Vey simple: Based on Bucket sort

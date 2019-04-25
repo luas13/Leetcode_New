@@ -63,3 +63,53 @@ public:
         return maxgap;
     }
 };
+
+
+// Small change, when you find the num of buckets
+class Solution {
+public:
+    int maximumGap(vector<int>& nums) {
+        int l = nums.size();
+        if (!l)
+            return 0;
+        int maxv=INT_MIN, minv=INT_MAX;
+        
+        for(int n: nums)
+        {
+            minv = min(minv, n);
+            maxv = max(maxv, n);
+        }
+        
+        if (maxv == minv)
+            return 0;
+        
+        double bs = (double)(maxv - minv)/double(l);
+        
+        int num_of_buckets = ((maxv - minv)/ bs) + 1;
+        
+        cout<<"bucket size: "<<bs<<endl;
+        cout<<"no of buckets: "<<num_of_buckets<<endl;
+        
+        vector<int> minarr(num_of_buckets, INT_MAX);
+        vector<int> maxarr(num_of_buckets, INT_MIN);
+        
+        for(int n: nums)
+        {
+            int index = (n - minv)/bs;
+            maxarr[index] = max(maxarr[index], n);
+            minarr[index] = min(minarr[index], n);
+        }
+        
+        int maxgap = INT_MIN;
+        int prev = maxarr[0];
+        for(int i=1; i<num_of_buckets; i++)
+        {
+            if (minarr[i] == INT_MAX)
+                continue;
+            maxgap = max(maxgap, minarr[i] - prev);
+            prev = maxarr[i];
+        }
+        
+        return maxgap;
+    }
+};

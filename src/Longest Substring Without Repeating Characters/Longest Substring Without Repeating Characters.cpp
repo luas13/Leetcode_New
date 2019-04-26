@@ -22,7 +22,10 @@ public:
                 len = i - b;
                 if (len > maxl)
                     maxl = len;
-                // imp
+                // imp. take example: "abba"
+                // if not max and you just write: b = mymap[int(s[i])] + 1
+                // then after last 'a' at index 3, value of b will become 1
+                // while it should have become more than last boundary i.e. index 2
                 b = max( (mymap[int(s[i])] + 1), b);
             }
             mymap[int(s[i])] = i;

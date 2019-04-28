@@ -165,3 +165,34 @@ public:
         return -1;
     }
 };
+
+// Clean solution of Soln 3
+// Best Constant space O(1)
+class Solution {
+public:
+    int firstUniqChar(string s) {
+        int l = s.length();
+        int present_once = 0, present_multiple = 0;
+        for(int i=0; i<l; i++)
+        {
+            int v = 1<<(s[i] - 'a');
+            if (!(present_multiple & v))
+            {
+                if (present_once & v)
+                {
+                    present_multiple |= v;
+                    present_once &= ~v;
+                }
+                else
+                    present_once |= v;
+            }
+        }
+        
+        for(int i=0; i<l; i++)
+        {
+            if (present_once & (1<<(s[i] - 'a')) )
+                return i;
+        }
+        return -1;
+    }
+};

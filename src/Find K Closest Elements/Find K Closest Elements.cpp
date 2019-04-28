@@ -86,6 +86,33 @@ public:
 // initialise high to be arr.size() - k
 // find the best index, here starting index
 
+/*
+More explanation:
+Always think that we are interested in chunk of array, which essentially will 
+be represented by its leftmost and rightmost element. x might be anywhere, i.e.
+x can be somewhere in the middle of that chunk or cannot be in the chunk at all.
+
+At any point of time, we need to make sure that A[i] ~ A[i + k -1], i.e. A[i] and A[i + k - 1]
+are as close as possible, think nearly equivalent.
+
+We can binary research i.
+We compare the distance between (x - A[mid]) and (A[mid + k] - x)
+
+If x - A[mid] > A[mid + k] - x,
+it means A[mid + 1] ~ A[mid + k] is better than A[mid] ~ A[mid + k - 1],
+but we have mid smaller than the correct/probable i.
+So assign left = mid + 1.
+
+Note that, you shouldn't compare the absolute value abs(x - A[mid]) and abs(A[mid + k] - x).
+It's wrong though it get accepetd.
+It fails at the case A = [1,1,2,2,2,2,2,3,3], x=3, k=2
+
+Time Complexity:
+O(log(N - K)) to binary research and find reseult
+O(K) to create the returned list.
+
+*/
+
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {

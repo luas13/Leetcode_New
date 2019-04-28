@@ -15,14 +15,15 @@ public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
         if (!head)
             return head;
-        ListNode dummy = ListNode(0);
+        
+        ListNode dummy(0);
         dummy.next = head;
         ListNode* pre = &dummy;
         
         for(int i=0; i<m-1; i++)
             pre = pre->next;
-        ListNode* curr = pre->next;
         
+        ListNode* curr = pre->next;
         for(int i=0; i<n-m; i++)
         {
             ListNode* move = curr->next;
@@ -30,6 +31,7 @@ public:
             move->next = pre->next;
             pre->next = move;
         }
+        
         return dummy.next;
     }
 };

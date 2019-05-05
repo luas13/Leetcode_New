@@ -7,6 +7,14 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|153|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| [C++](./src/String%20to%20Integer%20(atoi)/String%20to%20Integer%20(atoi).cpp) |Medium|
+|152|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)| [C++](./src/Number%20of%20Enclaves/Number%20of%20Enclaves.cpp) |Medium|
+|151|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)| [C++](./src/Non-overlapping%20Intervals/Non-overlapping%20Intervals.cpp) |Medium|
+|150|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)| [C++](./src/Middle%20of%20the%20Linked%20List/Middle%20of%20the%20Linked%20List.cpp) |Easy|
+|149|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)| [C++](./src/Merge%20Intervals/Merge%20Intervals.cpp) |Medium|
+|148|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [C++](./src/Linked%20List%20Cycle%20II/Linked%20List%20Cycle%20II.cpp) |Medium|
+|147|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/)| [C++](./src/K-th%20Smallest%20Prime%20Fraction/K-th%20Smallest%20Prime%20Fraction.cpp) |Hard|
+|146|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)| [C++](./src/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.cpp) |Medium|
 |145|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)| [C++](./src/Valid%20Parenthesis%20String/Valid%20Parenthesis%20String.cpp) |Medium|
 |144|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)| [C++](./src/Valid%20Parentheses/Valid%20Parentheses.cpp) |Easy|
 |143|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)| [C++](./src/Symmetric%20Tree/Symmetric%20Tree.cpp) |Easy|

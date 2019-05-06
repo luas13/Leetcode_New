@@ -160,7 +160,8 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 |3|[Decode Ways](https://oj.leetcode.com/problems/decode-ways/)| [C++](./src/Decode-Ways/DecodeWays.cpp)|Medium|
 |2|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [C++](./src/Unique-Paths-II/Unique_Paths_II.cpp)|Medium|
 |1|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)| [C++](./src/Unique-Paths/Unique%20Paths.cpp)|Medium|
-||[]| ||
+||| ||
+||SQL Questions| ||
 |S9|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)| [mySQL](./src/Combine%20Two%20Tables/Combine%20Two%20Tables.sql)|Easy|
 |S8|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/description/)| [mySQL](./src/Customers%20Who%20Never%20Order/Customers%20Who%20Never%20Order.sql)|Easy|
 |S7|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)| [mySQL](./src/Department%20Highest%20Salary/Department%20Highest%20Salary.sql)|Easy|

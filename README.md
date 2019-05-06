@@ -160,15 +160,12 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 |3|[Decode Ways](https://oj.leetcode.com/problems/decode-ways/)| [C++](./src/Decode-Ways/DecodeWays.cpp)|Medium|
 |2|[Unique Paths II](https://oj.leetcode.com/problems/unique-paths-ii/)| [C++](./src/Unique-Paths-II/Unique_Paths_II.cpp)|Medium|
 |1|[Unique Paths](https://oj.leetcode.com/problems/unique-paths/)| [C++](./src/Unique-Paths/Unique%20Paths.cpp)|Medium|
-|09|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)| [mySQL](./src/Combine%20Two%20Tables/Combine%20Two%20Tables.sql)|Easy|
-
-### LeetCode mySQL
-|9|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)| [mySQL](./src/Combine%20Two%20Tables/Combine%20Two%20Tables.sql)|Easy|
-|8|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/description/)| [mySQL](./src/Customers%20Who%20Never%20Order/Customers%20Who%20Never%20Order.sql)|Easy|
-|7|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)| [mySQL](./src/Department%20Highest%20Salary/Department%20Highest%20Salary.sql)|Easy|
-|6|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)| [mySQL](./src/Department%20Highest%20Salary/Department%20Highest%20Salary.sql)|Easy|
-|5|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/)| [mySQL](./src/Delete%20Duplicate%20Emails/Delete%20Duplicate%20Emails.sql)|Easy|
-|4|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/description/)| [mySQL](./src/Duplicate%20Emails/Duplicate%20Emails.sql)|Easy|
-|3|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)| [mySQL](./src/Employees%20Earning%20More%20Than%20Their%20Managers/Employees%20Earning%20More%20Than%20Their%20Managers.sql)|Easy|
-|2|[Rising Temperature](https://leetcode.com/problems/rising-temperature/description/)| [mySQL](./src/Rising%20Temperature/Rising%20Temperature.sql)|Easy|
-|1|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/)| [mySQL](./src/Second%20Highest%20Salary/Second%20Highest%20Salary.sql)|Easy|
+|S9|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)| [mySQL](./src/Combine%20Two%20Tables/Combine%20Two%20Tables.sql)|Easy|
+|S8|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/description/)| [mySQL](./src/Customers%20Who%20Never%20Order/Customers%20Who%20Never%20Order.sql)|Easy|
+|S7|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)| [mySQL](./src/Department%20Highest%20Salary/Department%20Highest%20Salary.sql)|Easy|
+|S6|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)| [mySQL](./src/Department%20Highest%20Salary/Department%20Highest%20Salary.sql)|Easy|
+|S5|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/description/)| [mySQL](./src/Delete%20Duplicate%20Emails/Delete%20Duplicate%20Emails.sql)|Easy|
+|S4|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/description/)| [mySQL](./src/Duplicate%20Emails/Duplicate%20Emails.sql)|Easy|
+|S3|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/description/)| [mySQL](./src/Employees%20Earning%20More%20Than%20Their%20Managers/Employees%20Earning%20More%20Than%20Their%20Managers.sql)|Easy|
+|S2|[Rising Temperature](https://leetcode.com/problems/rising-temperature/description/)| [mySQL](./src/Rising%20Temperature/Rising%20Temperature.sql)|Easy|
+|S1|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/description/)| [mySQL](./src/Second%20Highest%20Salary/Second%20Highest%20Salary.sql)|Easy|

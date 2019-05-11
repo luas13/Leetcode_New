@@ -7,6 +7,9 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|156|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)| [C++](./src/Rectangle%20Area%20II/Rectangle%20Area%20II.cpp) |Hard|
+|155|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)| [C++](./src/Rectangle%20Area/Rectangle%20Area.cpp) |Medium|
+|154|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)| [C++](./src/Odd%20Even%20Linked%20List/Odd%20Even%20Linked%20List.cpp) |Medium|
 |153|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| [C++](./src/String%20to%20Integer%20(atoi)/String%20to%20Integer%20(atoi).cpp) |Medium|
 |152|[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)| [C++](./src/Number%20of%20Enclaves/Number%20of%20Enclaves.cpp) |Medium|
 |151|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)| [C++](./src/Non-overlapping%20Intervals/Non-overlapping%20Intervals.cpp) |Medium|

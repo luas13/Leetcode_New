@@ -7,6 +7,9 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|159|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)| [C++](./src/Sliding%20Window%20Median/Sliding%20Window%20Median.cpp) |Hard|
+|158|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [C++](./src/Binary%20Tree%20Maximum%20Path%20Sum/Binary%20Tree%20Maximum%20Path%20Sum.cpp) |Hard|
+|157|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)| [C++](./src/Diameter%20of%20Binary%20Tree/Diameter%20of%20Binary%20Tree.cpp) |Easy|
 |156|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/)| [C++](./src/Rectangle%20Area%20II/Rectangle%20Area%20II.cpp) |Hard|
 |155|[Rectangle Area](https://leetcode.com/problems/rectangle-area/)| [C++](./src/Rectangle%20Area/Rectangle%20Area.cpp) |Medium|
 |154|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)| [C++](./src/Odd%20Even%20Linked%20List/Odd%20Even%20Linked%20List.cpp) |Medium|

@@ -4,7 +4,9 @@ So you can't use * as a right bracket where there are no left brackets to match 
 For example: s = '*(()'.
 
 low is lowest POSSIBLE number of OPEN left bracket, which means possibly it 
-can't go below 0 because we have the liberty to consider * as empty
+can't go below 0 because we have the liberty to consider * as empty. Also, low
+can be decremented by ')' or '*' only when you have encountered '(' in the PAST.
+If you haven't encountered '(', we won't update low at all. It will remain 0
 
 At the end of the iteration low can be anything positive or zero.
 At the end we check whether low == 0, because

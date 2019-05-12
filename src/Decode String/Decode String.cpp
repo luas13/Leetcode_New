@@ -21,6 +21,55 @@ class Solution {
 public:
     string decodeString(string s) {
         int l = s.length();
+        if (!l)
+            return ("");
+        stack<char> st;
+        
+        for(int i=0; i<l; i++)
+        {
+            if (s[i] != ']')
+                st.push(s[i]);
+            else
+            {
+                string tmp, proc, count;
+                while(!st.empty() && (st.top() >= 'a' && st.top() <= 'z') || (st.top() >= 'A' && st.top() <= 'Z'))
+                {
+                    tmp = st.top() + tmp;
+                    st.pop();
+                }
+                
+                if (st.top() == '[')
+                    st.pop();
+                
+                while(!st.empty() && st.top() >= '0' && st.top() <= '9')
+                {
+                    count = st.top() + count;
+                    st.pop();
+                }
+                
+                for(int i=0; i<stoi(count); i++)
+                    proc +=tmp;
+                
+                for(char c: proc)
+                    st.push(c);
+            }
+        }
+        
+        string res;
+        while(!st.empty())
+        {
+            res = st.top() + res;
+            st.pop();
+        }
+        return res;
+    }
+};
+
+/*
+class Solution {
+public:
+    string decodeString(string s) {
+        int l = s.length();
         string result;
         if (!l)
             return result;
@@ -71,3 +120,4 @@ public:
         return result;
     }
 };
+*/

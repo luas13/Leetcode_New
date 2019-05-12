@@ -1,7 +1,60 @@
 /*
+Why low = max(low, 0) ?
+So you can't use * as a right bracket where there are no left brackets to match with.
+For example: s = '*(()'.
+
+low is lowest POSSIBLE number of OPEN left bracket, which means possibly it 
+can't go below 0 because we have the liberty to consider * as empty
+
+At the end of the iteration low can be anything positive or zero.
+At the end we check whether low == 0, because
+If low is greater than 0, it means that the number of left parentheses is too much, 
+there are not enough right parentheses to offset, and false is returned. 
+It cannot be negative because low is decremented only when low is greater than 0.
+
+In essence, low is decremented on the occurence of ‘*’ only when low is > 0 . This means 
+that we will treat ‘*’ as closing braces upto the point of maintaining low to zero.
+In rest cases we will treat '*' as empty
+
+When high is less than 0 at any time, it means that there are too many right parentheses 
+and return false
+ 
+Another way to think:
+low: the number of the left parenthesis when the asterisk is treated as the right parenthesis or empty charcter
+high: the number of left parenthesis when the asterisk is treated as the left parenthesis
+*/
+
+// Soln: 1
+
+Class Solution {
+ public :
+     bool checkValidString( string s) {
+         int low = 0 , high = 0 ;
+         for ( char c : s) {
+             if (c == ' ( ' ) {
+                 ++low; ++ high;
+            } else  if (c == ' ) ' ) {
+                 if (low > 0 ) --low;
+                 -- high;
+            } else {
+                 if (low > 0 ) --low;
+                 ++ high;
+            }
+            if (high < 0 ) 
+		return  false ;
+        }
+        return low == 0 ;
+    }
+};
+
+//------------------------------------------------------------------------------------------
+// Read below for understanding
+	
+	
+/*
 O(n) solution the best you can get.
 
-// Soln: 1 Same algo
+// Soln: 3 Same algo
 bool checkValidString(string s) {
 		auto lo = 0, hi = 0;
 		for (auto c : s) {
@@ -43,6 +96,7 @@ But low can go below 0 due to the algo but that is not significant.
 In that case we just again initialise it to be 0.
 ------------------------------------------------------------------
 
+Soln: 2
 Now, As per the solution given
 When checking whether the string is valid, we only cared about the "balance":
 the number of extra, open left brackets as we parsed through the string. 

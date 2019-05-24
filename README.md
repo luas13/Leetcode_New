@@ -178,6 +178,8 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 ### SQL Questions
 
 
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
 |9|[Combine Two Tables](https://leetcode.com/problems/combine-two-tables/description/)| [mySQL](./src/Combine%20Two%20Tables/Combine%20Two%20Tables.sql)|Easy|
 |8|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/description/)| [mySQL](./src/Customers%20Who%20Never%20Order/Customers%20Who%20Never%20Order.sql)|Easy|
 |7|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary/description/)| [mySQL](./src/Department%20Highest%20Salary/Department%20Highest%20Salary.sql)|Easy|

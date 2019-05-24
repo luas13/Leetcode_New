@@ -7,6 +7,13 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 
 | # | Title | Solution | Difficulty | Problem No |
 |---| ----- | -------- | ---------- | ---------- |
+|166|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)| [C++](./src/Validate%20Binary%20Search%20Tree/Validate%20Binary%20Search%20Tree.cpp) |Medium| 98|
+|165|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)| [C++](./src/Maximum%20Depth%20of%20N-ary%20Tree/Maximum%20Depth%20of%20N-ary%20Tree.cpp) |Easy| 559|
+|164|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [C++](./src/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp) |Medium| 236|
+|163|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [C++](./src/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.cpp) |Easy| 235|
+|162|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)| [C++](./src/Kth%20Smallest%20Element%20in%20a%20BST/Kth%20Smallest%20Element%20in%20a%20BST.cpp) |Medium| 230|
+|161|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)| [C++](./src/Distribute%20Coins%20in%20Binary%20Tree/Distribute%20Coins%20in%20Binary%20Tree.cpp) |Medium| 979|
+|160|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)| [C++](./src/Convert%20BST%20to%20Greater%20Tree/Convert%20BST%20to%20Greater%20Tree.cpp) |Easy| 538|
 |159|[Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)| [C++](./src/Sliding%20Window%20Median/Sliding%20Window%20Median.cpp) |Hard| 480|
 |158|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [C++](./src/Binary%20Tree%20Maximum%20Path%20Sum/Binary%20Tree%20Maximum%20Path%20Sum.cpp) |Hard| 124|
 |157|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)| [C++](./src/Diameter%20of%20Binary%20Tree/Diameter%20of%20Binary%20Tree.cpp) |Easy| 543|
@@ -31,10 +38,10 @@ LeetCode C++ Solutions (All the solutions have passed LeetCode OJ)
 |138|[Decode String](https://leetcode.com/problems/decode-string/description/)| [C++](./src/Decode%20String/Decode%20String.cpp) |Medium|
 |137|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)| [C++](./src/Container%20With%20Most%20Water/Container%20With%20Most%20Water.cpp) |Medium|
 |136|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)| [C++](./src/Generate%20Parentheses/Generate%20Parentheses.cpp) |Medium|
-|135|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)| [C++](./src/First%20Unique%20Character%20in%20a%20String/First%20Unique%20Character%20in%20a%20String.cpp) |Easy|
-|134|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)| [C++](./src/Find%20K%20Closest%20Elements/Find%20K%20Closest%20Elements.cpp) |Medium|
-|133|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/description/)| [C++](./src/Encode%20and%20Decode%20TinyURL/Encode%20and%20Decode%20TinyURL.cpp) |Medium|
-|132|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)| [C++](./src/Letter%20Combinations%20of%20a%20Phone%20Number/Letter%20Combinations%20of%20a%20Phone%20Number.cpp) |Medium|
+|135|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)| [C++](./src/First%20Unique%20Character%20in%20a%20String/First%20Unique%20Character%20in%20a%20String.cpp) |Easy| 387|
+|134|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)| [C++](./src/Find%20K%20Closest%20Elements/Find%20K%20Closest%20Elements.cpp) |Medium| 658|
+|133|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/description/)| [C++](./src/Encode%20and%20Decode%20TinyURL/Encode%20and%20Decode%20TinyURL.cpp) |Medium| 535|
+|132|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)| [C++](./src/Letter%20Combinations%20of%20a%20Phone%20Number/Letter%20Combinations%20of%20a%20Phone%20Number.cpp) |Medium| 17|
 |131|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)| [C++](./src/Isomorphic%20Strings/Isomorphic%20Strings.cpp) |Easy|
 |130|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)| [C++](./src/Spiral%20Matrix%202/Spiral_Matrix2.cpp) |Medium|
 |129|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)| [C++](./src/Rotate%20Image/Rotate_Image.cpp) |Medium|

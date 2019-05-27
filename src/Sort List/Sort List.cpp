@@ -1,3 +1,61 @@
+// Soln: 1, Short and Clean
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* merge(ListNode* l1, ListNode* l2)
+    {
+        ListNode dummy(0);
+        ListNode* head = &dummy;
+        
+        while(l1 && l2)
+        {
+            if (l1->val < l2->val){
+                head->next = l1;
+                l1 = l1->next;
+            }
+            
+            else{
+                head->next = l2;
+                l2 = l2->next;
+            }
+            
+            head = head->next;
+        }
+        
+        head->next = l1? l1 : l2;
+        
+        return dummy.next;
+    }
+    
+    
+    ListNode* sortList(ListNode* head) {
+        if (!head || !head->next)
+            return head;
+        
+        // fast = head->next
+        ListNode* slow = head, *fast = head->next;
+        while(slow && fast && fast->next)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        
+        ListNode* headb = slow->next;
+        slow->next = NULL;
+        
+        return merge(sortList(head), sortList(headb));
+    }
+};
+
+
+// Too detailed
 /**
  * Definition for singly-linked list.
  * struct ListNode {
